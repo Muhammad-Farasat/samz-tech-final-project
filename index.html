@@ -1,11 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
+
+    <!-- NAVBAR -->
+    <nav>
+
+            <!-- HAMBURGER ICON -->
+            <div id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
     
+            <!-- PAGE NAVIGATOR -->
+            <div id="pageDirector">
+    
+                <a href="#">MEN</a>
+                <a href="#">WOMEN</a>
+                <a href="#">KIDS</a>
+    
+            </div>
+    
+            <!-- LOGO -->
+            <div id="logo">
+                <h2>
+                    Logo
+                </h2>
+            </div>
+    
+            <!-- OTHERS -->
+            <div id="other">
+    
+                <button class="bagBtn" id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i> 
+                    <span class="btnText">&nbsp;&nbsp;SEARCH</span>
+                </button>
+                <button class="bagBtn" id="accountBtn">ACCOUNT</button>
+                <button class="bagBtn"> <span class="btnText">BAGS</span> &nbsp;[&nbsp; 0 &nbsp;] </button>
+    
+            </div>
+
+
+
+    </nav>
+
+    <!-- MAIN VIDEO -->
+    <main>
+
+        <video src="./Assests/mainVideo.mp4" autoplay muted loop></video>
+
+        <!-- NEW COLLECTION -->
+        <section id="newCollection">
+
+            <div id="NCContent">
+                <div>
+                    <h3>
+                        [ NEW COLLECTION ]
+                    </h3>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ACCESSORIES ITEMS -->
+        <section id="accessory">
+
+            <div id="accessoryOne"></div>
+
+            <div id="accessoryTwo"></div>
+
+        </section>
+
+        <!-- Footer -->
+         <footer>
+            <div id="footerContainer">
+                
+                <div id="community">
+                    
+                    <div>
+                        <h1>JOIN OUR COMMUNITY</h1>
+                        <p>Get the latest news & offers</p>
+                    </div>
+                    
+                    <div>
+                        <div id="inputEmail">
+                            <input type="text" placeholder="Email Address">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="divider"></div>
+
+                <div></div>
+
+            </div>
+
+         </footer>
+
+
+    </main>
+
+
+
 </body>
+
+<script src="./script.js"></script>
+
 </html>
