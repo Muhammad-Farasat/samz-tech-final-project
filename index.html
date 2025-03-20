@@ -3,9 +3,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E commerce</title>
+    <title>Women's Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    background-image: url('noise-texture.png');
+}
+
+/* Breadcrumb navigation */
+.breadcrumb {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.breadcrumb ul {
+    list-style: none;
+}
+
+.breadcrumb a {
+    color: #999;
+    text-decoration: none;
+}
+
+/* Main header */
+.main-header {
+    background-color: #e0e0e0;
+    padding: 15px 0;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a, .nav-actions a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-actions {
+    display: flex;
+}
+
+.nav-actions a {
+    margin-left: 20px;
+}
+
+/* Page title section */
+.page-title {
+    background-color: #e0e0e0;
+    padding: 50px 20px;
+}
+
+.page-title h1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 36px;
+}
+
+/* Filter bar */
+.filter-bar {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.filter-btn {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Product grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.product-card {
+    position: relative;
+    background-color: white;
+}
+
+.product-image {
+    background-color: #e0e0e0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    color: #333;
+    font-size: 18px;
+}
+
+.product-info {
+    padding: 15px 10px;
+    position: relative;
+}
+
+.product-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #666;
+}
+
+.wishlist-btn {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+    </style>
 </head>
 <body>
+    <!-- Breadcrumb navigation -->
+    <nav class="breadcrumb">
+        <ul>
+            <li><a href="#">Women</a></li>
+        </ul>
+    </nav>
     
+    <!-- Navigation header -->
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul class="nav-links">
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">KIDS</a></li>
+            </ul>
+            <div class="logo">LOGO</div>
+            <div class="nav-actions">
+                <a href="#" class="search-btn">SEARCH</a>
+                <a href="#" class="bags-btn">BAGS</a>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Page title section -->
+    <section class="page-title">
+        <h1>WOMEN</h1>
+    </section>
+    
+    <!-- Filter bar -->
+    <section class="filter-bar">
+        <button class="filter-btn">Sort & Filter</button>
+    </section>
+    
+    <!-- Product grid -->
+    <section class="product-grid">
+        <!-- Product card 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder"></div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">This is the Title</h3>
+                <p class="product-price">Rs. 599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
+        
+        <!-- Product card 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder">pic here</div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">This is the Title</h3>
+                <p class="product-price">Rs. 599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
+        
+        <!-- Product card 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder">pic here</div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">This is the Title</h3>
+                <p class="product-price">Rs. 599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
 </body>
 </html>
