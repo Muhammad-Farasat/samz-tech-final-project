@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* Breadcrumb navigation */
+.breadcrumb {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.breadcrumb ul {
+    list-style: none;
+}
+
+.breadcrumb a {
+    color: #999;
+    text-decoration: none;
+}
+
+
+#sub-main{
+    margin-top: 14rem;
+    position: relative;
+    z-index: -1;
+}
+
+
+/* Page title section */
+.page-title {
+    background-color: #e0e0e0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 18rem;
+    z-index: -1;
+}
+
+.page-title h1 {
+    max-width: 1280px;
+    font-size: 36px;
+    position: absolute;
+    bottom: 18%;
+    left: 4%;
+}
+
+/* Filter bar */
+.filter-bar {
+    padding: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.filter-btn {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Product grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.product-card {
+    position: relative;
+    background-color: white;
+}
+
+.product-image {
+    background-color: #e0e0e0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    color: #333;
+    font-size: 18px;
+}
+
+.product-info {
+    padding: 15px 10px;
+    position: relative;
+}
+
+.product-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #666;
+}
+
+.wishlist-btn {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
