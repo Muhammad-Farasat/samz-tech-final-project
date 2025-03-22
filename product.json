@@ -1,0 +1,149 @@
+[
+    {
+        "id" : 1,
+        "name" : "High Mileage Men's Black Vented Premium Leather Scooter Jacket",
+        "price" : 4999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "../Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket1.jpg",
+            "../Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket2.jpg",
+            "../Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket3.jpg",
+            "../Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket4.jpg"
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 2,
+        "name" : "High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket",
+        "price" : 5999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "../Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket1.jpg",
+            "../Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket2.jpg",
+            "../Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket3.jpg",
+            "../Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket4.png"
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 3,
+        "name" : "High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders",
+        "price" : 8999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders1.jpg",
+            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders2.jpg",
+            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders3.jpg",
+            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders4.jpg",
+            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders5.jpg",
+            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders6.jpg"
+        
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 4,
+        "name" : "High Mileage Premium Men's Black Leather Jacket",
+        "price" : 8999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket1.png",
+            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket2.png",
+            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket3.png",
+            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket4.png",
+            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket5.jpg",
+            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket6.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 5,
+        "name" : "Men's Basic Classic Motorcycle Jacket Plain Side w",
+        "price" : 4999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist01.png",
+            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist02.png",
+            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist03.png",
+            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist04.png",
+            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist05.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 6,
+        "name" : "Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner",
+        "price" : 3999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner1.png",
+            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner2.png",
+            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner3.png",
+            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner4.jpg",
+            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner5.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 7,
+        "name" : "Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles",
+        "price" : 1999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "../Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (1).png",
+            "../Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (2).png",
+            "../Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (3).png",
+            "../Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (4).png",
+            "../Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (5).png"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 8,
+        "name" : "Cowhide Leather Fully Lined Racer Jacket",
+        "price" : 2999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "../Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket1.jpg",
+            "../Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket2.jpg",
+            "../Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket3.jpg",
+            "../Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket4.jpg",
+            "../Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket8.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 9,
+        "name" : "Double Pistol Pete Leather Jacket",
+        "price" : 6999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "../Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket1.jpg",
+            "../Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket2.jpg",
+            "../Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket3.jpg",
+            "../Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket4.jpg",
+            "../Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 10,
+        "name" : "Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner",
+        "price" : 7999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "../Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner1.png",
+            "../Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner2.png",
+            "../Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner3.png",
+            "../Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    }
+]

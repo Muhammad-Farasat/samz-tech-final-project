@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+
+        <!-- HAMBURGER ICON -->
+        <div id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- PAGE NAVIGATOR -->
+        <div id="pageDirector">
+
+            <a href="#">MEN</a>
+            <a href="#">WOMEN</a>
+            <a href="#">KIDS</a>
+
+        </div>
+
+        <!-- LOGO -->
+        <div id="logo">
+            <h2>
+                Logo
+            </h2>
+        </div>
+
+        <!-- OTHERS -->
+        <div id="other">
+
+            <button class="bagBtn" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="btnText">&nbsp;&nbsp;SEARCH</span>
+            </button>
+            <button class="bagBtn" id="accountBtn">ACCOUNT</button>
+            <button class="bagBtn"> <span class="btnText">BAGS</span> &nbsp;<span class="bracket">[</span>&nbsp; <span
+                    id="cartNumber">0</span>
+                &nbsp;<span class="bracket">]</span> </button>
+
+        </div>
+
+        <div id="smallScreenNav">
+            <a href="#">MEN</a>
+            <div id="divider"></div>
+            <a href="#">WOMEN</a>
+            <div id="divider"></div>
+            <a href="#">KIDS</a>
+            <div id="divider"></div>
+
+            <button class="bagBtn">ACCOUNT</button>
+        </div>
+
+
+
+    </nav>
+
+    <!-- PRODUCT DETAILS -->
+    <section class="product">
+
+        <div class="product-container">
+
+            <div class="product-images">
+                <img src="" id="main-image" alt="">
+                <div class="thumbnail-images" id="thumbnails"></div>
+            </div>
+
+            <div class="product-details">
+                <h1 id="product-name"></h1>
+                <p id="product-description"></p>
+                <p class="product-price">Rs. <span id="product-price"></span></p>
+                <div class="size-selection">
+                    <label for="size">Size:</label>
+                    <div class="size-button" id="size-button"></div>
+                </div>
+                <button id="add-to-cart">Add to Cart <i class="fa-solid fa-cart-shopping"></i> </button>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footerContainer">
+
+            <div id="community">
+
+                <div>
+                    <h1>JOIN OUR COMMUNITY</h1>
+                    <p>Get the latest news & offers</p>
+                </div>
+
+                <div>
+                    <div id="inputEmail">
+                        <input type="text" placeholder="Email Address">
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="divider"></div>
+
+            <div id="lists">
+
+                <div id="subLists">
+
+                    <div id="support">
+                        <p>SUPPORT</p>
+                        <ul>
+                            <li>FAQs</li>
+                            <li>Contact Us</li>
+                            <li>Return & Refund Policy</li>
+                            <li>Shipping & Delivery</li>
+                            <li>Order Tracking</li>
+                        </ul>
+                    </div>
+
+                    <div id="dividerList"></div>
+
+                    <div id="services">
+                        <p>SERVICES</p>
+                        <ul>
+                            <li>Custom Orders</li>
+                            <li>Gift Cards</li>
+                            <li>Size Guide</li>
+                            <li>Personal Styling</li>
+                            <li>Affiliate Program</li>
+                        </ul>
+                    </div>
+
+                    <div id="dividerList"></div>
+
+                    <div id="about">
+                        <p>ABOUT</p>
+                        <ul>
+                            <li>Our Story</li>
+                            <li>Sustainablitiy & Ethics</li>
+                            <li>Careers</li>
+                            <li>Blog</li>
+                            <li>Customer Reviews</li>
+                        </ul>
+                    </div>
+
+                    <div id="dividerList"></div>
+
+                    <div id="parthner">
+                        <p>PARTHNER</p>
+                        <ul>
+                            <li>Brand Collabrations</li>
+                            <li>Influencer Program</li>
+                            <li>Whole Sale Inquiries</li>
+                            <li>Supplier Portal</li>
+                            <li>Franchise Opportunities</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div id="footerLogo">
+                    <h1>LOGO</h1>
+                </div>
+
+            </div>
+
+            <div id="divider"></div>
+
+            <div id="copyRight">
+
+                <div id="terms">
+                    <p>Privacy & Cookies</p>
+                    <p>Terms & Conditions</p>
+                </div>
+
+                <div>
+                    <p>&copy; Logo. All rights reserved</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+<script src="./product.js"></script>
+<script src="../script.js"></script>
+
+</html>

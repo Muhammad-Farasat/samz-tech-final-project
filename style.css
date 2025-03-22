@@ -33,7 +33,7 @@ nav {
     align-items: center;
     padding: 16px 8px;
     position: sticky;
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav div {
@@ -513,6 +513,95 @@ input::placeholder {
     justify-content: space-between;
 }
 
+/* CART STYLING */
+
+#bags{
+    position: fixed;
+    top: 0;
+    right: -50vw;
+    width: 50vw;
+    height: 100vh;
+    z-index: 99999;
+    background-color: #fff;
+    padding: 32px;
+    transition: right 0.7s ease-in-out;
+}
+
+#bags.open{
+    right: 0;
+}
+
+#bags h4{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+#bagTopSection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cross{
+    width: 40px;
+    height: 40px;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.cart-item{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.bagTitle{
+    font-size: 1rem;
+    margin: 0 0 5px;
+    color: #333;
+}
+
+.cart-item .bagSize{
+    font-size: 0.9rem;
+    margin: 0 0 5px;
+    color: #333;
+}
+
+.bagPrice{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.remove-btn{
+    background-color: #FF009D;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.remove-btn:hover{
+    background-color: #c2012e;
+}
+
+
 
 @media (max-width:480px) {
 
@@ -530,11 +619,19 @@ input::placeholder {
 
     #menu {
         display: flex;
+        width: 60px;
+    }
+
+    #logo{
+        text-align: right;
     }
 
     #other {
         column-gap: 1rem !important;
+        justify-content: flex-end;
     }
+
+    
 
     .btnText {
         display: none;
@@ -542,10 +639,6 @@ input::placeholder {
 
     #accountBtn {
         display: none;
-    }
-
-    nav div {
-        width: 30%;
     }
 
     #accessory {
@@ -654,6 +747,15 @@ input::placeholder {
         width: 320px !important;
     }
 
+    #bags{
+        width: 100%;
+        padding: 22px;
+        right: -100vw;
+    }
+
+    .bagTitle{
+        font-size: 0.8rem;
+    }
 
 }
 
@@ -673,6 +775,7 @@ input::placeholder {
     }
 
     #menu {
+        width: 10%;
         display: flex;
     }
 
@@ -689,9 +792,6 @@ input::placeholder {
         display: none;
     }
 
-    nav div {
-        width: 30%;
-    }
 
     #logo {
         text-align: end;
@@ -793,6 +893,16 @@ input::placeholder {
         width: 250px;
     }
 
+    #bags{
+        width: 100%;
+        right: -100vw;
+        padding: 22px;
+    }
+
+    .bagTitle{
+        font-size: 0.8rem;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
@@ -806,6 +916,7 @@ input::placeholder {
     }
 
     #menu {
+        width: 10%;
         display: flex;
     }
     
@@ -814,7 +925,8 @@ input::placeholder {
     }
 
     #other {
-        column-gap: 1rem !important;
+        column-gap: 2rem;
+        justify-content: flex-end;
     }
 
     .btnText {
@@ -825,9 +937,6 @@ input::placeholder {
         display: none;
     }
 
-    nav div {
-        width: 30%;
-    }
 
     #logo{
         text-align: right;
@@ -910,5 +1019,14 @@ input::placeholder {
         font-size: 14px;
     }
 
+    #bags{
+        width: 100%;
+        padding: 22px;
+        right: -100vw;
+    }
+
+    .bagTitle{
+        font-size: 0.8rem;
+    }
 
 }
