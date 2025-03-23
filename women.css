@@ -1,165 +1,380 @@
-/* Reset and base styles */
+/*initial settings*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
-
+/*body styling initial*/
 body {
-    background-color: #f9f9f9;
+    background: #eaeaea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative; /*overplay for background*/
+}
+/*after opnening filter bar*/
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Assests/texture.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;  /* less Opacity  */
+    z-index: -1;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 
-/* Breadcrumb navigation */
-.breadcrumb {
-    padding: 10px 20px;
-    background-color: white;
-}
-
-.breadcrumb ul {
+ul li {
     list-style: none;
 }
 
-.breadcrumb a {
-    color: #999;
-    text-decoration: none;
-}
+/* NAV BAR STYLING */
 
-/* Main header */
-.main-header {
-    background-color: #e0e0e0;
-    padding: 15px 0;
-}
-
-.main-nav {
+nav {
+    height: max-content;
+    background-color: #fff;
+    margin: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    background-color: white;
+    padding: 16px 8px;
+    position: sticky;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.7);
 }
 
-.nav-links {
-    display: flex;
-    list-style: none;
+nav div {
+    width: 100%;
 }
+/* MENU ICON DESIGN */
 
-.nav-links li {
-    margin-right: 20px;
-}
-
-.nav-links a, .nav-actions a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    padding: 15px 10px;
-    display: inline-block;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.nav-actions {
-    display: flex;
-}
-
-.nav-actions a {
-    margin-left: 20px;
-}
-
-/* Page title section */
-.page-title {
-    background-color: #e0e0e0;
-    padding: 50px 20px;
-}
-
-.page-title h1 {
-    max-width: 1200px;
-    margin: 0 auto;
-    font-size: 36px;
-}
-
-/* Filter bar */
-.filter-bar {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.filter-btn {
-    background-color: #000;
-    color: white;
-    border: none;
-    padding: 10px 20px;
+#menu {
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 4px;
     cursor: pointer;
 }
 
-/* Product grid */
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+#menu span {
+    width: 100%;
+    height: 2px;
+    border: 2px solid #111;
+    transition: all 0.3s ease;
+    transform-origin: center;
 }
 
-.product-card {
-    position: relative;
-    background-color: white;
+#menu.active span:nth-child(1){
+    transform: translateY(9px) rotate(45deg) ;
 }
 
-.product-image {
-    background-color: #e0e0e0;
-    height: 400px;
+#menu.active span:nth-child(2){
+    opacity: 0;
+}
+
+#menu.active span:nth-child(3){
+    transform: translateY(-6px) rotate(-45deg);
+}
+
+#pageDirector {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.placeholder {
-    color: #333;
-    font-size: 18px;
-}
 
-.product-info {
-    padding: 15px 10px;
-    position: relative;
-}
-
-.product-title {
+#other {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-size: 16px;
-    margin-bottom: 5px;
+
 }
 
-.product-price {
-    color: #666;
+#logo {
+    text-align: center;
 }
 
-.wishlist-btn {
-    position: absolute;
-    right: 10px;
-    top: 15px;
+.bagBtn {
     background: none;
     border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.men-section {
+    margin-top: 20px; /* beneath the header*/
+    text-align: left;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background: none; /* Remove background */
+}
+/*header section*/
+header {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cards Container */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between items */
+    padding: 40px;
+    background: url('texture-bg.jpg'); /* Background texture */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Single Card Design */
+#card {
+    background-color: #fff;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s; /* Only box-shadow transition */
+}
+
+/* Image Container */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+/* Main Image */
+.main-img, .hover-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images cover the container */
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Default Image Visible */
+.main-img {
+    opacity: 1;
+}
+
+/* Hover Image Hidden by Default */
+.hover-img {
+    opacity: 0;
+}
+
+/* Show Hover Image on Hover */
+.image-container:hover .main-img {
+    opacity: 0;
+}
+
+.image-container:hover .hover-img {
+    opacity: 1;
+}
+
+/* Title and Price */
+#title-card {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#price {
+    font-size: 16px;
+    color: #1a1a1aa9;
+}
+
+
+/*filter button*/
+#filterBtn {
+    position: relative;  
+    display: block;  
+    margin: 20px 0 20px 20px;  /* Keeps spacing and aligns to left */
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+/* Filter left SidePanel */
+#filterPanel {
+    width: 280px; 
+    height: 100vh;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: -300px; /* hidden at first */
+    transition: transform 0.3s ease-in-out;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+}
+
+/*  Close Button of the filter */
+#closeFilter {
     font-size: 24px;
     cursor: pointer;
-    color: #999;
+    float: right;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-    .product-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+/*  Blurring the background */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1000;
 }
 
-@media (max-width: 480px) {
-    .product-grid {
-        grid-template-columns: 1fr;
+/*  Dropdown list */
+.filter-category {
+    margin-bottom: 20px; 
+}
+
+.filter-category h3 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+/*  Dropdown options box */
+.filter-category select {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+}
+
+/* filter Button-1 */
+.apply {
+    padding: 12px;
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+/*filter button-2*/
+.clear {
+    padding: 12px;
+    width: 100%;
+    background: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+footer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+footer::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./Assests/texture.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+
+}
+
+#footerContainer{
+    width: 1280px;
+    position: relative;
+    z-index: 2;
+}
+
+#community{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+#inputEmail{
+    width: 300px;
+    background-color: #403F3F;
+    padding: 12px 12px;
+}
+
+#inputEmail input{
+    background: transparent;
+    border: none;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+#divider{
+    width: 100%;
+    height: 4px;
+    border: 2px solid #111;
+}
+
+
+@media (max-width:480px) {
+
+    nav{
+        margin: 12px;
     }
+
+    #pageDirector {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    /* #other {
+        display: none;
+    } */
+
+    .btnText{
+        display: none;
+    }
+
+    #accountBtn{
+        display: none;
+    }
+
+    nav div {
+        width: 30%;
+    }
+
 }
