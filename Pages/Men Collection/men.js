@@ -20,3 +20,17 @@ function closeFilterPanel() {
 filterBtn.addEventListener("click", openFilter);
 closeFilter.addEventListener("click", closeFilterPanel);
 overlay.addEventListener("click", closeFilterPanel);
+document.querySelectorAll('.fa-regular').forEach(heart => {
+    heart.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        this.classList.toggle('active');
+        
+        //wishlist heart hover on click
+        if (this.classList.contains('active')) {
+            this.classList.replace('fa-regular', 'fa-solid');
+        } else {
+            this.classList.replace('fa-solid', 'fa-regular');
+        }
+    });
+});

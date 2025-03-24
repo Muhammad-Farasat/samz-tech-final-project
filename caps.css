@@ -1,15 +1,17 @@
+/*initial settings*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*body styling initial*/
 body {
     background: #eaeaea;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative; 
-}
 
+}
 /*after opnening filter bar*/
 body::after {
     content: "";
@@ -18,6 +20,7 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
+    background-attachment: fixed;
     background-image: url('Assests/texture.jpg');
     background-size: cover;
     background-position: center;
@@ -105,15 +108,17 @@ nav div {
     font-size: 14px;
     cursor: pointer;
 }
-.men-section {
+/*caps heading*/
+.caps-section {
+    margin-top: 20px; 
+    
     text-align: left;
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
     background: none; 
 }
-
-
 /*header section*/
 header {
     background-color: white;
@@ -124,53 +129,64 @@ header {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* men-cards Container */
-
-#men-main{
-    width: 100%;
-}
-
-#men-cards {
+/* Cards Container */
+#cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    max-width: 1200px;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
     padding: 0 20px;
     background: url('texture-bg.jpg'); 
     background-size: cover;
     background-position: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+   
+}
+#cards {
+    flex-grow: 1;
 }
 
-/* Single Card Design */
-#men-card {
+
+/* a Card Design */
+#card {
     background-color: #fff;
     border-radius: 10px; 
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s; 
+    transition: box-shadow 0.3s;
     width: 100%;
+    
 }
 
-/* Image Container */
+/* product Image Container */
 .image-container {
     position: relative;
     width: 100%;
-    height: 600px; 
+    height: 350px; 
     overflow: hidden;
 }
+.image-container img {
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+    justify-content: center;
 
-/* Main Image */
+}
+
+/* Main product  Image */
 .main-img, .hover-img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 80%;
+    object-fit: cover; 
     position: absolute;
     top: 0;
     left: 0;
     transition: opacity 0.3s ease-in-out;
 }
 
-/* Default Image Visible */
+/* Default Image Visible for 1st image*/
 .main-img {
     opacity: 1;
 }
@@ -180,7 +196,7 @@ header {
     opacity: 0;
 }
 
-/* Show Hover Image on Hover */
+/* Show 2nd product Image on Hover */
 .image-container:hover .main-img {
     opacity: 0;
 }
@@ -189,12 +205,12 @@ header {
     opacity: 1;
 }
 
-/* Title and Price */
+/* title name and Price */
 #title-card {
     text-align: left;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
 
 #title {
@@ -314,24 +330,63 @@ header {
     border-radius: 5px;
 }
 
+footer {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('./Assests/texture.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+
+}
+
+#footerContainer {
+    width: 1280px;
+    position: relative;
+    z-index: 2;
+}
+
+#community {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+#inputEmail {
+    width: 300px;
+    background-color: #403F3F;
+    padding: 12px 12px;
+}
+
+#inputEmail input {
+    background: transparent;
+    border: none;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+#divider {
+    width: 100%;
+    border: 1px solid #606060;
+    margin: 4rem 0;
+}
+
 
 @media (max-width:480px) {
-
-    #men-subMain{
-        width: 320px;
-    }
-
-    #men-cards{
-        justify-content: center;
-    }
-
-    #men-card{
-        width: 280px;
-    }
-
-    .image-container{
-        height: 400px;
-    }
 
     nav{
         margin: 12px;
@@ -361,34 +416,4 @@ header {
         width: 30%;
     }
 
-}
-
-@media (min-width:481px) and (max-width:768px) {
-    #men-subMain{
-        width: 600px;
-    }
-
-    
-    #men-card{
-        width: 280px;
-    }
-
-    .image-container{
-        height: 400px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px){
-    #men-subMain{
-        width: 715px;
-    }
-
-    
-    #men-card{
-        width: 340px;
-    }
-
-    .image-container{
-        height: 500px;
-    }
 }
