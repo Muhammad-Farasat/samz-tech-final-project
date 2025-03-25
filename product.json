@@ -5,10 +5,10 @@
         "price" : 4999,
         "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
         "images" : [
-            "../Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket1.jpg",
-            "../Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket2.jpg",
-            "../Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket3.jpg",
-            "../Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket4.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket4.jpg"
         ],
         "sizes" : ["S", "M", "L", "XL"]
     },
@@ -18,10 +18,10 @@
         "price" : 5999,
         "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
         "images" : [
-            "../Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket1.jpg",
-            "../Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket2.jpg",
-            "../Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket3.jpg",
-            "../Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket4.png"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket4.png"
         ],
         "sizes" : ["S", "M", "L", "XL"]
     },
@@ -31,12 +31,12 @@
         "price" : 8999,
         "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
         "images" : [
-            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders1.jpg",
-            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders2.jpg",
-            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders3.jpg",
-            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders4.jpg",
-            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders5.jpg",
-            "../Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders6.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders4.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders5.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders6.jpg"
         
         ],
         "sizes" : ["S", "M", "L", "XL"]
@@ -47,12 +47,12 @@
         "price" : 8999,
         "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
         "images" : [
-            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket1.png",
-            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket2.png",
-            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket3.png",
-            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket4.png",
-            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket5.jpg",
-            "../Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket6.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket1.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket2.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket3.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket4.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket5.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket6.jpg"
             
         ],
         "sizes" : ["S", "M", "L", "XL"]
@@ -63,11 +63,11 @@
         "price" : 4999,
         "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
         "images" : [
-            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist01.png",
-            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist02.png",
-            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist03.png",
-            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist04.png",
-            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist05.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist01.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist02.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist03.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist04.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist05.jpg"
             
         ],
         "sizes" : ["S", "M", "L", "XL"]
@@ -78,11 +78,11 @@
         "price" : 3999,
         "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
         "images" : [
-            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner1.png",
-            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner2.png",
-            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner3.png",
-            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner4.jpg",
-            "../Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner5.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner1.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner2.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner3.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner4.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner5.jpg"
             
         ],
         "sizes" : ["S", "M", "L", "XL"]
@@ -93,11 +93,11 @@
         "price" : 1999,
         "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
         "images" : [
-            "../Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (1).png",
-            "../Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (2).png",
-            "../Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (3).png",
-            "../Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (4).png",
-            "../Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (5).png"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (1).png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (2).png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (3).png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (4).png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (5).png"
             
         ],
         "sizes" : ["S", "M", "L", "XL"]
@@ -108,11 +108,11 @@
         "price" : 2999,
         "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
         "images" : [
-            "../Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket1.jpg",
-            "../Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket2.jpg",
-            "../Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket3.jpg",
-            "../Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket4.jpg",
-            "../Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket8.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket4.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket8.jpg"
             
         ],
         "sizes" : ["S", "M", "L", "XL"]
@@ -123,11 +123,11 @@
         "price" : 6999,
         "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
         "images" : [
-            "../Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket1.jpg",
-            "../Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket2.jpg",
-            "../Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket3.jpg",
-            "../Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket4.jpg",
-            "../Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket4.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket4.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Double Pistol Pete Leather Jacket/Double Pete Jacket4.jpg"
             
         ],
         "sizes" : ["S", "M", "L", "XL"]
@@ -138,12 +138,294 @@
         "price" : 7999,
         "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
         "images" : [
-            "../Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner1.png",
-            "../Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner2.png",
-            "../Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner3.png",
-            "../Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner4.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner1.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner2.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner3.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner/Goatskin Lightweight MCJ with Dual Gun Pockets & Zip out Liner4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 11,
+        "name" : "High Mileage Ladies Black Fringe and Rivet Leather Jacket",
+        "price" : 4999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Black Fringe and Rivet Leather Jacket/High Mileage Ladies Black Fringe and Rivet Leather Jacket01.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Black Fringe and Rivet Leather Jacket/High Mileage Ladies Black Fringe and Rivet Leather Jacket02.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Black Fringe and Rivet Leather Jacket/High Mileage Ladies Black Fringe and Rivet Leather Jacket03.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Black Fringe and Rivet Leather Jacket/High Mileage Ladies Black Fringe and Rivet Leather Jacket04.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Black Fringe and Rivet Leather Jacket/High Mileage Ladies Black Fringe and Rivet Leather Jacket05.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 12,
+        "name" : "High Mileage Ladies Brown Fringe and Rivet Leather Jacket",
+        "price" : 2999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Brown Fringe and Rivet Leather Jacket/High Mileage Ladies Brown Fringe and Rivet Leather Jacket01.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Brown Fringe and Rivet Leather Jacket/High Mileage Ladies Brown Fringe and Rivet Leather Jacket02.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Brown Fringe and Rivet Leather Jacket/High Mileage Ladies Brown Fringe and Rivet Leather Jacket03.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Brown Fringe and Rivet Leather Jacket/High Mileage Ladies Brown Fringe and Rivet Leather Jacket04.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 13,
+        "name" : "High Mileage Ladies Lightweight Black Goatskin Jacket w Grommeted Twill and Lace Highlights 2",
+        "price" : 5999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Lightweight Black Goatskin Jacket w Grommeted Twill and Lace Highlights 2/lightwight goatskin jactket1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Lightweight Black Goatskin Jacket w Grommeted Twill and Lace Highlights 2/lightwight goatskin jactket2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Lightweight Black Goatskin Jacket w Grommeted Twill and Lace Highlights 2/lightwight goatskin jactket3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Lightweight Black Goatskin Jacket w Grommeted Twill and Lace Highlights 2/lightwight goatskin jactket4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 14,
+        "name" : "High Mileage Ladies Vintage Brown Leather Jacket with Diamond Stitched Shoulders",
+        "price" : 4555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Ladies Vintage Brown Leather Jacket with Diamond Stitched Shoulders1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Ladies Vintage Brown Leather Jacket with Diamond Stitched Shoulders2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Ladies Vintage Brown Leather Jacket with Diamond Stitched Shoulders3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Ladies Vintage Brown Leather Jacket with Diamond Stitched Shoulders4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 15,
+        "name" : "Ladies High Mileage Black and Brown Jacket",
+        "price" : 6599,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies High Mileage Black and Brown Jacket/Ladies High Mileage Black and Brown Jacket1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies High Mileage Black and Brown Jacket/Ladies High Mileage Black and Brown Jacket2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies High Mileage Black and Brown Jacket/Ladies High Mileage Black and Brown Jacket3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies High Mileage Black and Brown Jacket/Ladies High Mileage Black and Brown Jacket4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 16,
+        "name" : "Ladies Lightweight Distressed Gray Goat Skin Leather Jacket",
+        "price" : 3999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 17,
+        "name" : "Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket",
+        "price" : 8555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 18,
+        "name" : "Ladies Premium Leather Jacket with Leather Scrunch Sides",
+        "price" : 7555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Leather Jacket with Leather Scrunch Sides/Ladies Premium Leather Jacket with Leather Scrunch Sides1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Leather Jacket with Leather Scrunch Sides/Ladies Premium Leather Jacket with Leather Scrunch Sides2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Leather Jacket with Leather Scrunch Sides/Ladies Premium Leather Jacket with Leather Scrunch Sides3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Leather Jacket with Leather Scrunch Sides/Ladies Premium Leather Jacket with Leather Scrunch Sides5.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 19,
+        "name" : "Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ",
+        "price" : 2555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 20,
+        "name" : "Ladies Premium Soft Lightweight Black Fitted Leather Jacket",
+        "price" : 2555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Soft Lightweight Black Fitted Leather Jacket/Ladies Premium Soft Lightweight Black Fitted Leather Jacket1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Soft Lightweight Black Fitted Leather Jacket/Ladies Premium Soft Lightweight Black Fitted Leather Jacket2.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Soft Lightweight Black Fitted Leather Jacket/Ladies Premium Soft Lightweight Black Fitted Leather Jacket3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Soft Lightweight Black Fitted Leather Jacket/Ladies Premium Soft Lightweight Black Fitted Leather Jacket4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 21,
+        "name" : "beige",
+        "price" : 9999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/beige/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/beige/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/beige/3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/beige/4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 22,
+        "name" : "blue",
+        "price" : 2999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/blue/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/blue/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/blue/3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/blue/4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 23,
+        "name" : "brown",
+        "price" : 2555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/brown/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/brown/2.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 24,
+        "name" : "flex black",
+        "price" : 2555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex black/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex black/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex black/3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex black/4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 25,
+        "name" : "flex green",
+        "price" : 2555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex green/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex green/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex green/3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex green/4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 26,
+        "name" : "flex grey",
+        "price" : 2555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex grey/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex grey/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex grey/3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex grey/4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 27,
+        "name" : "flex pink",
+        "price" : 2555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex pink/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex pink/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex pink/3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex pink/4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 28,
+        "name" : "mehroon",
+        "price" : 4555,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/mehroon/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/mehroon/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/mehroon/3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/mehroon/4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 29,
+        "name" : "red",
+        "price" : 3559,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/red/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/red/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/red/3.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/red/4.jpg"
+            
+        ],
+        "sizes" : ["S", "M", "L", "XL"]
+    },
+    {
+        "id" : 30,
+        "name" : "white",
+        "price" : 999,
+        "description" : "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "images" : [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/white/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/white/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/white/3.jpg"
             
         ],
         "sizes" : ["S", "M", "L", "XL"]
     }
+    
+
+
+    
 ]

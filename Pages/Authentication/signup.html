@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+    }
+
+    body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('../../Assests/texture.jpg');
+        background-position: center;
+        background-size: cover;
+        opacity: 0.2
+    }
+
+
+    form {
+        width: 420px;
+        padding: 30px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        text-align: center;
+        backdrop-filter: blur(10px);
+        margin: auto;
+    }
+
+    input {
+        width: 100%;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    input:active {
+        outline: #FF009D;
+        border: 1px solid #FF009D;
+    }
+
+    input:focus {
+        outline: #FF009D;
+        border: 2px solid #FF009D;
+
+    }
+
+    button {
+        width: 100%;
+        border: none;
+        background-color: #FF009D;
+        color: #fff;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #c20185;
+    }
+
+    #divider {
+        height: 1px;
+        background: #ccc;
+        margin: 12px 0;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #FF009D;
+        font-weight: 500;
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    #bg-image {
+        background: url('../../Assests/bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50vw;
+        height: 100vh;
+        position: relative;
+        z-index: 1;
+        clip-path: polygon(0 0, 100% 0, 71% 100%, 0% 100%);
+    }
+
+    #bg-image::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.5;
+    }
+
+    @media (max-width: 480px) {
+
+        section {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #formSubmit {
+            position: absolute;
+            z-index: 99;
+        }
+
+        #bg-image {
+            width: 100vw;
+            height: 60vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            clip-path: none;
+            border-radius: 0 0 56px 56px;
+        }
+
+        #bg-image::before {
+            border-radius: 0 0 56px 56px;
+        }
+
+        form {
+            width: 280px;
+            padding: 12px;
+            background-color: #fff;
+        }
+
+
+    }
+
+    @media (min-width:481px) and (max-width:768px) {
+
+        section {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #formSubmit {
+            position: absolute;
+            z-index: 99;
+        }
+
+        #bg-image {
+            width: 100vw;
+            height: 60vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            clip-path: none;
+            border-radius: 0 0 56px 56px;
+        }
+
+        #bg-image::before {
+            border-radius: 0 0 56px 56px;
+        }
+
+        form {
+            width: 280px;
+            padding: 12px;
+            background-color: #fff;
+        }
+
+
+    }
+
+    
+</style>
+
+<body>
+
+
+    <section>
+        <div id="mainImage">
+            <div id="bg-image"></div>
+        </div>
+
+        <form action="" id="formSubmit">
+            <h2>SIGN UP</h2>
+            <input id="username" type="text" placeholder="username">
+            <input id="email" type="email" placeholder="email">
+            <input id="password" type="password" placeholder="password">
+            <button type="submit">SIGN UP</button>
+            <div id="divider"></div>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </form>
+
+    </section>
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+
+
+    document.getElementById('formSubmit').addEventListener('submit', (event) => {
+        event.preventDefault()
+
+        let username = document.getElementById('username').value
+        let email = document.getElementById('email').value
+        let password = document.getElementById('password').value
+
+
+        if (!username || !email || !password) {
+            return Swal.fire("Enter all details");
+        }
+
+        const user = { username, email, password }
+        localStorage.setItem('user', JSON.stringify(user))
+
+        window.location.href = '/'
+
+    })
+
+
+
+</script>
+
+</html>

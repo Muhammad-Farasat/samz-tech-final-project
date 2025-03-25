@@ -46,7 +46,10 @@
                     <i class="fa-solid fa-magnifying-glass"></i> 
                     <span class="btnText">&nbsp;&nbsp;SEARCH</span>
                 </button>
-                <button class="bagBtn" id="accountBtn">ACCOUNT</button>
+                <div id="account">
+                    <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html" >ACCOUNT</a>
+
+                </div>
                 <button class="bagBtn" id="openBag" > <span class="btnText">BAGS</span> &nbsp;<span class="bracket">[</span>&nbsp; <span id="cartNumber">0</span> &nbsp;<span class="bracket">]</span> </button>
     
             </div>
@@ -71,8 +74,10 @@
                     </p>
                 </div>
 
-                <div id="bagCart">
-                    
+                <div id="bagCart"></div>
+
+                <div id="checkoutBtn">
+                    <button id="checkoutButton">Proceed to Checkout</button>
                 </div>
 
             </div>
@@ -309,7 +314,7 @@
 
 
 </body>
-
 <script src="./script.js"></script>
+
 
 </html>
