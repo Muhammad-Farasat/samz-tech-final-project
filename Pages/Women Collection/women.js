@@ -4,18 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
     
     wishlistButtons.forEach(button => {
         button.addEventListener('click', function() {
-            
+            // Toggle wishlist state
             this.classList.toggle('active');
             
-
+            // Change the heart icon appearance
             if (this.classList.contains('active')) {
-                this.innerHTML = '♥'; 
+                this.innerHTML = '♥'; // Filled heart
                 this.style.color = '#FF0000';
             } else {
-                this.innerHTML = '♡'; 
+                this.innerHTML = '♡'; // Empty heart
                 this.style.color = '#999';
             }
-            
         });
     });
-})
+    
