@@ -16,51 +16,87 @@
 
 <body>
 
-    <!-- NAVBAR -->
-    <nav>
+    
+    
+        <!-- NAVBAR -->
+        <nav>
 
-        <!-- HAMBURGER ICON -->
-        <div id="menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+            <!-- HAMBURGER ICON -->
+            <div id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
 
-        <!-- PAGE NAVIGATOR -->
-        <div id="pageDirector">
+            <!-- PAGE NAVIGATOR -->
+            <div id="pageDirector">
 
-            <a href="men.html">MEN</a>
-            <a href="../Women Collection/women.html">WOMEN</a>
-            <a href="#">KIDS</a>
+                <a href="/Pages/Men Collection/men.html">MEN</a>
+                <a href="/Pages/Women Collection/women.html">WOMEN</a>
+                <a href="/Pages/Kids Collection/kids.html">KIDS</a>
 
-        </div>
+            </div>
 
-        <!-- LOGO -->
-        <div id="logo">
-            <h2>
-                Logo
-            </h2>
-        </div>
+            <!-- LOGO -->
+            <div id="logo">
+                <img src="/Assests/Products/logo.png" alt="">
+            </div>
 
-        <!-- OTHERS -->
-        <div id="other">
+            <!-- OTHERS -->
+            <div id="other">
 
-            <button class="bagBtn" id="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <span class="btnText">&nbsp;&nbsp;SEARCH</span>
-            </button>
-            <button class="bagBtn" id="accountBtn">ACCOUNT</button>
-            <button class="bagBtn"> <span class="btnText">BAGS</span> &nbsp;[&nbsp; 0 &nbsp;] </button>
+                <button class="bagBtn" id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span class="btnText">&nbsp;&nbsp;SEARCH</span>
+                </button>
+                <div id="account">
+                    <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
 
-        </div>
+                </div>
+                <button class="bagBtn" id="openBag"> <span class="btnText">BAGS</span> &nbsp;<span
+                        class="bracket">[</span>&nbsp; <span id="cartNumber">0</span> &nbsp;<span
+                        class="bracket">]</span> </button>
 
+            </div>
 
+            <div id="smallScreenNav">
+                <a href="#">MEN</a>
+                <div id="divider"></div>
+                <a href="#">WOMEN</a>
+                <div id="divider"></div>
+                <a href="#">KIDS</a>
+                <div id="divider"></div>
 
-    </nav>
+                <button class="bagBtn">ACCOUNT</button>
+            </div>
+
+            <div id="bags">
+
+                <div id="bagTopSection">
+                    <h4>BAGS</h4>
+                    <p class="cross" id="closeBtn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </p>
+                </div>
+
+                <div id="bagCart"></div>
+
+                <div id="checkoutBtn">
+                    <button id="checkoutButton">Proceed to Checkout</button>
+                </div>
+
+            </div>
+
+        </nav>
 
     <!-- MEN Heading -->
     <section class="men-section">
-        <h2>MEN</h2>
+        
+        <h1>MEN</h1>
+
+        <div class="texture-overlay">
+        </div>
+
     </section>
 
     <section id="men-main">
@@ -70,16 +106,16 @@
         <div id="men-cards">
             <!-- CARD 1 -->
             <div id="men-card">
-                <a href="mendetail.html?id=1">
+                <a href="../product.html?id=1">
                     <div class="image-container">
-                        <img class="main-img" src="../../products men/pic-1 FP.webp" alt="Product Image">
-                        <img class="hover-img" src="../../products men/pic-1b FP.webp" alt="Product Hover Image">
+                        <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket1.jpg" alt="Product Image">
+                        <img class="hover-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Black Vented Premium Leather Scooter Jacket/High Mileage Men's Black Vented Premium Leather Scooter Jacket2.jpg" alt="Product Hover Image">
                     </div>
                 </a>
                 <div id="title-card">
                     <div>
-                        <p id="title">Navy Blue Cotton Shirt</p>
-                        <span id="price">Rs. 4599</span>
+                        <p id="title">Black Vented Jacket</p>
+                        <span id="price">Rs. 4999</span>
                     </div>
                     <div>
                         <i class="fa-regular fa-heart"></i>
@@ -89,17 +125,16 @@
     
             <!-- CARD 2 -->
             <div id="men-card">
-                <a href="mendetail.html?id=2">
+                <a href="../product.html?id=2">
                     <div class="image-container">
-                        <img class="main-img" src="../../products men/pic-2 FP.webp" alt="Product Image">
-                        <img class="hover-img" src="../../products men/pic-2b FP.webp" alt="Product Hover Image">
+                        <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket1.jpg" alt="Product Image">
+                        <img class="hover-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket/High Mileage Men's Distressed Brown Padded and Vented Leather Scooter Jacket2.jpg" alt="Product Hover Image">
                     </div>
                 </a>
                 <div id="title-card">
                     <div>
-                        <p id="title">Light Blue Cotton Lightweight
-                             Sweatshirt</p>
-                        <span id="price">Rs. 4999</span>
+                        <p id="title">Distressed Brown Jacket</p>
+                        <span id="price">Rs. 5999</span>
                     </div>
                     <div>
                         <i class="fa-regular fa-heart"></i>
@@ -108,16 +143,16 @@
             </div>
             <!-- CARD 3 -->
             <div id="men-card">
-                <a href="mendetail.html?id=3">
+                <a href="../product.html?id=3">
                     <div class="image-container">
-                        <img class="main-img" src="../../products men/pic-3 FP.webp" alt="Product Image">
-                        <img class="hover-img" src="../../products men/pic-3b FP.webp" alt="Product Hover Image">
+                        <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders1.jpg" alt="Product Image">
+                        <img class="hover-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders/High Mileage Men's Vintage Brown Leather Jacket with Diamond Stitched Shoulders2.jpg" alt="Product Hover Image">
                     </div>
                 </a>
                 <div id="title-card">
                     <div>
-                        <p id="title">Black Cotton Lightweight Sweatshirt </p>
-                        <span id="price">Rs. 4999</span>
+                        <p id="title">Vintage Diamond Jacket </p>
+                        <span id="price">Rs. 8999</span>
                     </div>
                     <div>
                         <i class="fa-regular fa-heart"></i>
@@ -126,16 +161,16 @@
             </div>
             <!-- CARD 4 -->
             <div id="men-card">
-                <a href="mendetail.html?id=4">
+                <a href="../product.html?id=4">
                     <div class="image-container">
-                        <img class="main-img" src="../../products men/pic-4 FP.webp" alt="Product Image">
-                        <img class="hover-img" src="../../products men/pic-4b FP.webp" alt="Product Hover Image">
+                        <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket1.png" alt="Product Image">
+                        <img class="hover-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/High Mileage Premium Men's Black Leather Jacket/High Mileage Premium Men's Black Leather Jacket2.png" alt="Product Hover Image">
                     </div>
                 </a>
                 <div id="title-card">
                     <div>
-                        <p id="title">Blue Slim Fit Denim Jeans</p>
-                        <span id="price">Rs. 5999</span>
+                        <p id="title">Premium Black Jacket</p>
+                        <span id="price">Rs. 7999</span>
                     </div>
                     <div>
                         <i class="fa-regular fa-heart"></i>
@@ -144,16 +179,16 @@
             </div>
             <!-- CARD 5 -->
             <div id="men-card">
-                <a href="mendetail.html?id=5">
+                <a href="../product.html?id=5">
                     <div class="image-container">
-                        <img class="main-img" src="../../products men/pic-5 FP.webp" alt="Product Image">
-                        <img class="hover-img" src="../../products men/pic-5b FP.webp" alt="Product Hover Image">
+                        <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist01.png" alt="Product Image">
+                        <img class="hover-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket Plain Side w/Belted Waist02.png" alt="Product Hover Image">
                     </div>
                 </a>
                 <div id="title-card">
                     <div>
-                        <p id="title">Dark Blue Vintage Jeans</p>
-                        <span id="price">Rs. 11000</span>
+                        <p id="title">Classic Moto Jacket</p>
+                        <span id="price">Rs. 4999</span>
                     </div>
                     <div>
                         <i class="fa-regular fa-heart"></i>
@@ -162,16 +197,16 @@
             </div>
             <!-- CARD 6 -->
             <div id="men-card">
-                <a href="mendetail.html?id=6">
+                <a href="../product.html?id=6">
                     <div class="image-container">
-                        <img class="main-img" src="../../products men/pic-6 FP.webp" alt="Product Image">
-                        <img class="hover-img" src="../../products men/pic-6b FP.webp" alt="Product Hover Image">
+                        <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner1.png" alt="Product Image">
+                        <img class="hover-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner/Men's Basic Classic Motorcycle Jacket with Lace Sides & Zip out Liner2.png" alt="Product Hover Image">
                     </div>
                 </a>
                 <div id="title-card">
                     <div>
-                        <p id="title">Black Leather Jacket</p>
-                        <span id="price">Rs. 6999</span>
+                        <p id="title">Lace-Side Biker</p>
+                        <span id="price">Rs. 3999</span>
                     </div>
                     <div>
                         <i class="fa-regular fa-heart"></i>
@@ -180,16 +215,16 @@
             </div>
             <!-- CARD 7 -->
             <div id="men-card">
-                <a href="mendetail.html?id=7">
+                <a href="../product.html?id=7">
                     <div class="image-container">
-                        <img class="main-img" src="../../products men/pic-7b FP.webp" alt="Product Image">
-                        <img class="hover-img" src="../../products men/pic-7 FP.jpg" alt="Product Hover Image">
+                        <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (1).png" alt="Product Image">
+                        <img class="hover-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Men's Premium Leather Beltless Mcj Wdual Gun Pockets & Zo Liner With Adjustable Collars For Different Styles/o Liner With Adjustable Collars For Differ (2).png" alt="Product Hover Image">
                     </div>
                 </a>
                 <div id="title-card">
                     <div>
-                        <p id="title">Black Cotton Jacket</p>
-                        <span id="price">Rs. 4999</span>
+                        <p id="title">Beltless Gun Jacket</p>
+                        <span id="price">Rs. 1999</span>
                     </div>
                     <div>
                         <i class="fa-regular fa-heart"></i>
@@ -198,16 +233,16 @@
             </div>
             <!-- CARD 8 -->
             <div id="men-card">
-                <a href="Smendetail.html?id=8">
+                <a href="Sproduct.html?id=8">
                     <div class="image-container">
-                        <img class="main-img" src="../../products men/pic-8 FP.webp" alt="Product Image">
-                        <img class="hover-img" src="../../products men/pic-8b FP.webp" alt="Product Hover Image">
+                        <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket1.jpg" alt="Product Image">
+                        <img class="hover-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Men/Cowhide Leather Fully Lined Racer Jacket/Cowhide Leather Fully Lined Racer Jacket2.jpg" alt="Product Hover Image">
                     </div>
                 </a>
                 <div id="title-card">
                     <div>
-                        <p id="title">Blue Indigo Denim Jeans</p>
-                        <span id="price">Rs. 6599</span>
+                        <p id="title">Cowhide Racer</p>
+                        <span id="price">Rs. 2999</span>
                     </div>
                     <div>
                         <i class="fa-regular fa-heart"></i>

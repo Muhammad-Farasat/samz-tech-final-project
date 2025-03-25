@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -26,12 +25,15 @@ body {
 }
 
 
-#sub-main{
+#sub-main {
     margin-top: 14rem;
     position: relative;
     z-index: -1;
 }
 
+.women-main {
+    width: 100%;
+}
 
 /* Page title section */
 .page-title {
@@ -44,7 +46,7 @@ body {
     z-index: 10;
 }
 
-.texture-overlay{
+.texture-overlay {
     background: url('/Assests/cardboard-texture.jpg');
     background-repeat: no-repeat;
     width: 100%;
@@ -55,7 +57,7 @@ body {
     opacity: 0.3;
 }
 
-.texture-overlay::before{
+.texture-overlay::before {
     content: '';
     position: absolute;
     top: 0;
@@ -74,19 +76,16 @@ body {
     left: 4%;
 }
 
-/* Filter bar */
-.filter-bar {
-    padding: 20px;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
 .filter-btn {
-    background-color: #000;
+    position: relative;
+    display: block;
+    margin: 20px 0 20px 20px;
+    background: black;
     color: white;
+    padding: 10px 15px;
     border: none;
-    padding: 10px 20px;
     cursor: pointer;
+    text-align: left;
 }
 
 /* Product grid */
@@ -94,23 +93,34 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 20px;
-    margin-top: 3rem;
+    padding: 40px;
 }
 
 .product-card {
-    position: relative;
+    border-radius: 10px;
     background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    width: 100%;
 }
 
-.product-image {
-    background-color: #e0e0e0;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .placeholder {
@@ -119,8 +129,10 @@ body {
 }
 
 .product-info {
-    padding: 15px 10px;
-    position: relative;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .product-title {
@@ -162,11 +174,13 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
 /*body styling initial*/
 body {
     background: #eaeaea;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: relative; /*overplay for background*/
+    position: relative;
+    /*overplay for background*/
 }
 
 /*after opnening filter bar*/
@@ -183,6 +197,7 @@ body::after {
     opacity: 0.1;
     z-index: -1;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -193,13 +208,15 @@ ul li {
 }
 
 .men-section {
-    margin-top: 20px; /* beneath the header*/
+    margin-top: 20px;
+    /* beneath the header*/
     text-align: left;
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-    background: none; /* Remove background */
+    background: none;
+    /* Remove background */
 }
 
 /*header section*/
@@ -215,10 +232,13 @@ header {
 /* Cards Container */
 #cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
-    gap: 20px; /* Space between items */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* Responsive grid */
+    gap: 20px;
+    /* Space between items */
     padding: 40px;
-    background: url('texture-bg.jpg'); /* Background texture */
+    background: url('texture-bg.jpg');
+    /* Background texture */
     background-size: cover;
     background-position: center;
 }
@@ -226,25 +246,30 @@ header {
 /* Single Card Design */
 #card {
     background-color: #fff;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px;
+    /* Rounded corners */
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s; /* Only box-shadow transition */
+    transition: box-shadow 0.3s;
+    /* Only box-shadow transition */
 }
 
 /* Image Container */
 .image-container {
     position: relative;
     width: 100%;
-    height: 300px; /* Adjust height as needed */
+    height: 300px;
+    /* Adjust height as needed */
     overflow: hidden;
 }
 
 /* Main Image */
-.main-img, .hover-img {
+.main-img,
+.hover-img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure images cover the container */
+    object-fit: cover;
+    /* Ensure images cover the container */
     position: absolute;
     top: 0;
     left: 0;
@@ -291,9 +316,10 @@ header {
 
 /*filter button*/
 #filterBtn {
-    position: relative;  
-    display: block;  
-    margin: 20px 0 20px 20px;  /* Keeps spacing and aligns to left */
+    position: relative;
+    display: block;
+    margin: 20px 0 20px 20px;
+    /* Keeps spacing and aligns to left */
     background: black;
     color: white;
     padding: 10px 15px;
@@ -305,12 +331,13 @@ header {
 
 /* Filter left SidePanel */
 #filterPanel {
-    width: 280px; 
+    width: 280px;
     height: 100vh;
     background: white;
     position: fixed;
     top: 0;
-    left: -300px; /* hidden at first */
+    left: -300px;
+    /* hidden at first */
     transition: transform 0.3s ease-in-out;
     padding: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
@@ -338,7 +365,7 @@ header {
 
 /*  Dropdown list */
 .filter-category {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 
 .filter-category h3 {
@@ -368,6 +395,7 @@ header {
     margin-top: 10px;
     border-radius: 5px;
 }
+
 /*filter button-2*/
 .clear {
     padding: 12px;
@@ -379,7 +407,8 @@ header {
     margin-top: 5px;
     border-radius: 5px;
 }
-footer{
+
+footer {
     width: 100%;
     height: 100vh;
     position: relative;
@@ -387,7 +416,7 @@ footer{
     justify-content: center;
 }
 
-footer::before{
+footer::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -400,35 +429,35 @@ footer::before{
 
 }
 
-#footerContainer{
+#footerContainer {
     width: 1280px;
     position: relative;
     z-index: 2;
 }
 
-#community{
+#community {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 3rem;
 }
 
-#inputEmail{
+#inputEmail {
     width: 300px;
     background-color: #403F3F;
     padding: 12px 12px;
 }
 
-#inputEmail input{
+#inputEmail input {
     background: transparent;
     border: none;
 }
 
-input::placeholder{
+input::placeholder {
     color: #fff;
 }
 
-#divider{
+#divider {
     width: 100%;
     height: 4px;
     border: 2px solid #111;
@@ -437,7 +466,7 @@ input::placeholder{
 
 @media (max-width:480px) {
 
-    nav{
+    nav {
         margin: 12px;
     }
 
@@ -453,11 +482,11 @@ input::placeholder{
         display: none;
     } */
 
-    .btnText{
+    .btnText {
         display: none;
     }
 
-    #accountBtn{
+    #accountBtn {
         display: none;
     }
 
