@@ -33,6 +33,7 @@ nav {
     align-items: center;
     padding: 10px 8px;
     position: sticky;
+    z-index: 999;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -222,7 +223,7 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 1;
 }
 
 #home video {
@@ -340,6 +341,7 @@ nav {
 
 #newCollection {
     margin-top: 100vh;
+    padding-top: 2rem;
     width: 100%;
     min-height: 100vh;
     position: relative;

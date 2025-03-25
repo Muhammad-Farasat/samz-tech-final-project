@@ -7,23 +7,12 @@
     <title>Women's Collection</title>
     <link rel="stylesheet" href="women.css">
     <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        /* Reset and base styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
 
+    <style>
+       
         body {
             background-color: #f9f9f9;
         }
-
-
 
         /* Breadcrumb navigation */
         .breadcrumb {
@@ -90,38 +79,25 @@
         /* Page title section */
         .page-title {
             background-color: #e0e0e0;
-            padding: 50px 20px;
+            padding: 10px 0px;
         }
 
         .page-title h1 {
             max-width: 1200px;
             margin: 0 auto;
             font-size: 36px;
+            text-align: center;
+
         }
 
-        /* Filter bar */
-        .filter-bar {
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
 
+        /* filterbutton */
         .filter-btn {
             background-color: #000;
             color: white;
             border: none;
             padding: 10px 20px;
             cursor: pointer;
-        }
-
-        /* Product grid */
-        .product-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
         }
 
         .product-card {
@@ -131,7 +107,7 @@
 
         .product-image {
             background-color: #e0e0e0;
-            height: 400px;
+            height: 450px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -189,12 +165,15 @@
             }
         }
     </style>
+
 </head>
 
 <body>
 
 
-    <section id="main">
+
+
+    <section class="page-title">
 
         <!-- NAVBAR -->
         <nav>
@@ -209,9 +188,9 @@
             <!-- PAGE NAVIGATOR -->
             <div id="pageDirector">
 
-                <a href="men.html">MEN</a>
-                <a href="women.html">WOMEN</a>
-                <a href="kids.html">KIDS</a>
+                <a href="/Pages/Men Collection/men.html">MEN</a>
+                <a href="/Pages/Women Collection/women.html">WOMEN</a>
+                <a href="/Pages/Kids Collection/kids.html">KIDS</a>
 
             </div>
 
@@ -229,7 +208,10 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <span class="btnText">&nbsp;&nbsp;SEARCH</span>
                 </button>
-                <button class="bagBtn" id="accountBtn">ACCOUNT</button>
+                <div id="account">
+                    <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
+
+                </div>
                 <button class="bagBtn" id="openBag"> <span class="btnText">BAGS</span> &nbsp;<span
                         class="bracket">[</span>&nbsp; <span id="cartNumber">0</span> &nbsp;<span
                         class="bracket">]</span>
@@ -257,253 +239,145 @@
                     </p>
                 </div>
 
-                <div id="bagCart">
+                <div id="bagCart"></div>
 
+                <div id="checkoutBtn">
+                    <button id="checkoutButton">Proceed to Checkout</button>
                 </div>
 
             </div>
 
         </nav>
 
-        <!-- Page title section -->
-        <section class="page-title">
-            <h1>WOMEN</h1>
-        </section>
-
-        <section id="sub-main">
-            <!-- Filter bar -->
-            <section class="filter-bar">
-                <button class="filter-btn">Sort & Filter</button>
-            </section>
-
-            <!-- Product grid -->
-            <section class="product-grid">
-                <!-- Product card 1 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="../../Assests/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket1.jpg">
-                        <!-- <div class="placeholder"></div> -->
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
-                        <p class="product-price">Rs. 2599</p>
-                        <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
-                    </div>
-                </div>
-
-                <!-- Product card 2 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="placeholder"></div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
-                        <p class="product-price">Rs. 2599</p>
-                        <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
-                    </div>
-                </div>
-
-                <!-- Product card 3 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="placeholder"></div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
-                        <p class="product-price">Rs. 2599</p>
-                        <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
-                    </div>
-                </div>
-
-
-
-                <!-- <section class="product-grid"> -->
-                <!-- Product card 1 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="placeholder"></div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
-                        <p class="product-price">Rs. 2599</p>
-                        <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
-                    </div>
-                </div>
-
-                <!-- Product card 2 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="placeholder"></div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
-                        <p class="product-price">Rs. 2599</p>
-                        <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
-                    </div>
-                </div>
-
-                <!-- Product card 3 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="placeholder"></div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
-                        <p class="product-price">Rs. 2599</p>
-                        <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
-                    </div>
-                </div>
-            </section>
-
-            <section class="product-grid">
-                <!-- Product card 1 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="placeholder"></div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
-                        <p class="product-price">Rs. 2599</p>
-                        <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
-                    </div>
-                </div>
-
-                <!-- Product card 2 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="placeholder"></div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
-                        <p class="product-price">Rs. 2599</p>
-                        <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
-                    </div>
-                </div>
-
-                <!-- Product card 3 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <div class="placeholder"></div>
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
-                        <p class="product-price">Rs. 2599</p>
-                        <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
-                    </div>
-                </div>
-            </section>
-
-        </section>
-
+        <div class="texture-overlay"></div>
+        <h1>WOMEN</h1>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div id="footerContainer">
+    <!-- Filter bar -->
+    <section class="filter-bar">
+        <button class="filter-btn">Sort & Filter</button>
+    </section>
 
-            <div id="community">
-
-                <div>
-                    <h1>JOIN OUR COMMUNITY</h1>
-                    <p>Get the latest news & offers</p>
-                </div>
-
-                <div>
-                    <div id="inputEmail">
-                        <input type="text" placeholder="Email Address">
-                    </div>
-                </div>
-
+    <!-- Product grid -->
+    <section class="product-grid">
+        <!-- Product card 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <img src="Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket1.jpg">
+                <!-- <div class="placeholder"></div> -->
             </div>
-
-            <div id="divider"></div>
-
-            <div id="lists">
-
-                <div id="subLists">
-
-                    <div id="support">
-                        <p>SUPPORT</p>
-                        <ul>
-                            <li>FAQs</li>
-                            <li>Contact Us</li>
-                            <li>Return & Refund Policy</li>
-                            <li>Shipping & Delivery</li>
-                            <li>Order Tracking</li>
-                        </ul>
-                    </div>
-
-                    <div id="dividerList"></div>
-
-                    <div id="services">
-                        <p>SERVICES</p>
-                        <ul>
-                            <li>Custom Orders</li>
-                            <li>Gift Cards</li>
-                            <li>Size Guide</li>
-                            <li>Personal Styling</li>
-                            <li>Affiliate Program</li>
-                        </ul>
-                    </div>
-
-                    <div id="dividerList"></div>
-
-                    <div id="about">
-                        <p>ABOUT</p>
-                        <ul>
-                            <li>Our Story</li>
-                            <li>Sustainablitiy & Ethics</li>
-                            <li>Careers</li>
-                            <li>Blog</li>
-                            <li>Customer Reviews</li>
-                        </ul>
-                    </div>
-
-                    <div id="dividerList"></div>
-
-                    <div id="parthner">
-                        <p>PARTHNER</p>
-                        <ul>
-                            <li>Brand Collabrations</li>
-                            <li>Influencer Program</li>
-                            <li>Whole Sale Inquiries</li>
-                            <li>Supplier Portal</li>
-                            <li>Franchise Opportunities</li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <div id="footerLogo">
-                    <h1>LOGO</h1>
-                </div>
-
+            <div class="product-info">
+                <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
+                <p class="product-price">Rs. 2599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
             </div>
-
-            <div id="divider"></div>
-
-            <div id="copyRight">
-
-                <div id="terms">
-                    <p>Privacy & Cookies</p>
-                    <p>Terms & Conditions</p>
-                </div>
-
-                <div>
-                    <p>&copy; Logo. All rights reserved</p>
-                </div>
-
-            </div>
-
         </div>
 
-    </footer>
+        <!-- Product card 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder"></div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
+                <p class="product-price">Rs. 2599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
+
+        <!-- Product card 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder"></div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
+                <p class="product-price">Rs. 2599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
 
 
 
+        <!-- <section class="product-grid"> -->
+        <!-- Product card 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder"></div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
+                <p class="product-price">Rs. 2599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
+
+        <!-- Product card 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder"></div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
+                <p class="product-price">Rs. 2599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
+
+        <!-- Product card 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder"></div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
+                <p class="product-price">Rs. 2599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-grid">
+        <!-- Product card 1 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder"></div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
+                <p class="product-price">Rs. 2599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
+
+        <!-- Product card 2 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder"></div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
+                <p class="product-price">Rs. 2599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
+
+        <!-- Product card 3 -->
+        <div class="product-card">
+            <div class="product-image">
+                <div class="placeholder"></div>
+            </div>
+            <div class="product-info">
+                <h3 class="product-title">Ladies Premium Goatskin Jacket</h3>
+                <p class="product-price">Rs. 2599</p>
+                <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
 
 </body>
-<script src="women.js"></script>
-<script src="../../script.js"></script>
 
 </html>

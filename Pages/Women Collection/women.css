@@ -36,12 +36,34 @@ body {
 /* Page title section */
 .page-title {
     background-color: #e0e0e0;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     height: 18rem;
-    z-index: -1;
+    z-index: 10;
+}
+
+.texture-overlay{
+    background: url('/Assests/cardboard-texture.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+.texture-overlay::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
 }
 
 .page-title h1 {
@@ -75,6 +97,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 20px;
+    margin-top: 3rem;
 }
 
 .product-card {
@@ -145,6 +168,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: relative; /*overplay for background*/
 }
+
 /*after opnening filter bar*/
 body::after {
     content: "";
@@ -153,10 +177,10 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('Assests/texture.jpg');
+    background-image: url('/Assests/texture.jpg');
     background-size: cover;
     background-position: center;
-    opacity: 0.3;  /* less Opacity  */
+    opacity: 0.1;
     z-index: -1;
 }
 a {
@@ -168,78 +192,6 @@ ul li {
     list-style: none;
 }
 
-/* NAV BAR STYLING */
-
-nav {
-    height: max-content;
-    background-color: #fff;
-    margin: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 8px;
-    position: sticky;
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.7);
-}
-
-nav div {
-    width: 100%;
-}
-/* MENU ICON DESIGN */
-
-#menu {
-    display: none;
-    width: 30px;
-    flex-direction: column;
-    row-gap: 4px;
-    cursor: pointer;
-}
-
-#menu span {
-    width: 100%;
-    height: 2px;
-    border: 2px solid #111;
-    transition: all 0.3s ease;
-    transform-origin: center;
-}
-
-#menu.active span:nth-child(1){
-    transform: translateY(9px) rotate(45deg) ;
-}
-
-#menu.active span:nth-child(2){
-    opacity: 0;
-}
-
-#menu.active span:nth-child(3){
-    transform: translateY(-6px) rotate(-45deg);
-}
-
-#pageDirector {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-#other {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 16px;
-
-}
-
-#logo {
-    text-align: center;
-}
-
-.bagBtn {
-    background: none;
-    border: none;
-    font-size: 14px;
-    cursor: pointer;
-}
 .men-section {
     margin-top: 20px; /* beneath the header*/
     text-align: left;
@@ -249,6 +201,7 @@ nav div {
     text-align: center;
     background: none; /* Remove background */
 }
+
 /*header section*/
 header {
     background-color: white;
