@@ -1,64 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CAPS COLLECTION</title>
     <link rel="stylesheet" href="caps.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../../style.css">
 </head>
+
 <body>
-    <!--nav section-->
+
+    <!-- NAVBAR -->
     <nav>
+
+        <!-- HAMBURGER ICON -->
         <div id="menu">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        <!--page navigation-->
+
+        <!-- PAGE NAVIGATOR -->
         <div id="pageDirector">
-            <a href="#">MEN</a>
-            <a href="#">WOMEN</a>
-            <a href="#">KIDS</a>
+
+            <a href="/Pages/Men Collection/men.html">MEN</a>
+            <a href="/Pages/Women Collection/women.html">WOMEN</a>
+            <a href="/Pages/Kids Collection/kids.html">KIDS</a>
+
         </div>
-        <!--logo-->
+
+        <!-- LOGO -->
         <div id="logo">
             <h2>
                 Logo
             </h2>
         </div>
-        <!--others in nav section-->
+
+        <!-- OTHERS -->
         <div id="other">
+
             <button class="bagBtn" id="search">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <span class="btnText">&nbsp;&nbsp;SEARCH</span>
             </button>
-            <button class="bagBtn" id="accountBtn">ACCOUNT</button>
-            <button class="bagBtn"><span class="btnText">BAGS</span>&nbsp;[&nbsp; 0 &nbsp;] </button>
+            <div id="account">
+                <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
+
+            </div>
+            <button class="bagBtn" id="openBag"> <span class="btnText">BAGS</span> &nbsp;<span
+                    class="bracket">[</span>&nbsp; <span id="cartNumber">0</span> &nbsp;<span class="bracket">]</span>
+            </button>
+
         </div>
+
+        <div id="smallScreenNav">
+            <a href="#">MEN</a>
+            <div id="divider"></div>
+            <a href="#">WOMEN</a>
+            <div id="divider"></div>
+            <a href="#">KIDS</a>
+            <div id="divider"></div>
+
+            <button class="bagBtn">ACCOUNT</button>
+        </div>
+
+        <div id="bags">
+
+            <div id="bagTopSection">
+                <h4>BAGS</h4>
+                <p class="cross" id="closeBtn">
+                    <i class="fa-solid fa-xmark"></i>
+                </p>
+            </div>
+
+            <div id="bagCart"></div>
+
+            <div id="checkoutBtn">
+                <button id="checkoutButton">Proceed to Checkout</button>
+            </div>
+
+        </div>
+
     </nav>
+
+
+
     <!--kids heading-->
     <section class="caps-section">
-        <h2> 
+        <h2>
             CAPS
         </h2>
     </section>
+
     <!--filter section-->
     <button id="filterBtn">Sort & Filters</button>
-    
-    <div id="cards">
+
+    <div id="caps-cards">
         <!-- CARD 1 -->
-        <div id="card">
+        <div id="caps-card">
             <a href="mendetail.html?id=1">
                 <div class="image-container">
                     <img class="main-img" src="products men/pic-1 FP.webp" alt="Product Image">
                     <img class="hover-img" src="products men/pic-1b FP.webp" alt="Product Hover Image">
                 </div>
             </a>
-            <div id="title-card">
+            <div id="caps-title-card">
                 <div>
-                    <p id="title">Navy Blue Cotton Shirt</p>
-                    <span id="price">Rs. 4599</span>
+                    <p id="caps-title">Navy Blue Cotton Shirt</p>
+                    <span id="caps-price">Rs. 4599</span>
                 </div>
                 <div>
                     <i class="fa-regular fa-heart"></i>
@@ -67,17 +118,17 @@
         </div>
 
         <!-- CARD 2 -->
-        <div id="card">
+        <div id="caps-card">
             <a href="mendetail.html?id=2">
                 <div class="image-container">
                     <img class="main-img" src="products men/pic-2 FP.webp" alt="Product Image">
                     <img class="hover-img" src="products men/pic-2b FP.webp" alt="Product Hover Image">
                 </div>
             </a>
-            <div id="title-card">
+            <div id="caps-title-card">
                 <div>
-                    <p id="title">Light Blue Cotton Lightweight Sweatshirt</p>
-                    <span id="price">Rs. 4999</span>
+                    <p id="caps-title">Light Blue Cotton Lightweight Sweatshirt</p>
+                    <span id="caps-price">Rs. 4999</span>
                 </div>
                 <div>
                     <i class="fa-regular fa-heart"></i>
@@ -85,17 +136,17 @@
             </div>
         </div>
         <!-- CARD 3 -->
-        <div id="card">
+        <div id="caps-card">
             <a href="mendetail.html?id=3">
                 <div class="image-container">
                     <img class="main-img" src="products men/pic-3 FP.webp" alt="Product Image">
                     <img class="hover-img" src="products men/pic-3b FP.webp" alt="Product Hover Image">
                 </div>
             </a>
-            <div id="title-card">
+            <div id="caps-title-card">
                 <div>
-                    <p id="title">Black Cotton Lightweight Sweatshirt </p>
-                    <span id="price">Rs. 4999</span>
+                    <p id="caps-title">Black Cotton Lightweight Sweatshirt </p>
+                    <span id="caps-price">Rs. 4999</span>
                 </div>
                 <div>
                     <i class="fa-regular fa-heart"></i>
@@ -103,17 +154,17 @@
             </div>
         </div>
         <!-- CARD 4 -->
-        <div id="card">
+        <div id="caps-card">
             <a href="mendetail.html?id=4">
                 <div class="image-container">
                     <img class="main-img" src="products men/pic-4 FP.webp" alt="Product Image">
                     <img class="hover-img" src="products men/pic-4b FP.webp" alt="Product Hover Image">
                 </div>
             </a>
-            <div id="title-card">
+            <div id="caps-title-card">
                 <div>
-                    <p id="title">Blue Slim Fit Denim Jeans</p>
-                    <span id="price">Rs. 5999</span>
+                    <p id="caps-title">Blue Slim Fit Denim Jeans</p>
+                    <span id="caps-price">Rs. 5999</span>
                 </div>
                 <div>
                     <i class="fa-regular fa-heart"></i>
@@ -121,17 +172,17 @@
             </div>
         </div>
         <!-- CARD 5 -->
-        <div id="card">
+        <div id="caps-card">
             <a href="mendetail.html?id=5">
                 <div class="image-container">
                     <img class="main-img" src="products men/pic-5 FP.webp" alt="Product Image">
                     <img class="hover-img" src="products men/pic-5b FP.webp" alt="Product Hover Image">
                 </div>
             </a>
-            <div id="title-card">
+            <div id="caps-title-card">
                 <div>
-                    <p id="title">Dark Blue Vintage Jeans</p>
-                    <span id="price">Rs. 11000</span>
+                    <p id="caps-title">Dark Blue Vintage Jeans</p>
+                    <span id="caps-price">Rs. 11000</span>
                 </div>
                 <div>
                     <i class="fa-regular fa-heart"></i>
@@ -139,17 +190,17 @@
             </div>
         </div>
         <!-- CARD 6 -->
-        <div id="card">
+        <div id="caps-card">
             <a href="mendetail.html?id=6">
                 <div class="image-container">
                     <img class="main-img" src="products men/pic-6 FP.webp" alt="Product Image">
                     <img class="hover-img" src="products men/pic-6b FP.webp" alt="Product Hover Image">
                 </div>
             </a>
-            <div id="title-card">
+            <div id="caps-title-card">
                 <div>
-                    <p id="title">Black Leather Jacket</p>
-                    <span id="price">Rs. 6999</span>
+                    <p id="caps-title">Black Leather Jacket</p>
+                    <span id="caps-price">Rs. 6999</span>
                 </div>
                 <div>
                     <i class="fa-regular fa-heart"></i>
@@ -157,17 +208,17 @@
             </div>
         </div>
         <!-- CARD 7 -->
-        <div id="card">
+        <div id="caps-card">
             <a href="mendetail.html?id=7">
                 <div class="image-container">
                     <img class="main-img" src="products men/pic-7b FP.webp" alt="Product Image">
                     <img class="hover-img" src="products men/pic-7 FP.jpg" alt="Product Hover Image">
                 </div>
             </a>
-            <div id="title-card">
+            <div id="caps-title-card">
                 <div>
-                    <p id="title">Black Cotton Jacket</p>
-                    <span id="price">Rs. 4999</span>
+                    <p id="caps-title">Black Cotton Jacket</p>
+                    <span id="caps-price">Rs. 4999</span>
                 </div>
                 <div>
                     <i class="fa-regular fa-heart"></i>
@@ -175,17 +226,17 @@
             </div>
         </div>
         <!-- CARD 8 -->
-        <div id="card">
+        <div id="caps-card">
             <a href="Smendetail.html?id=8">
                 <div class="image-container">
                     <img class="main-img" src="products men/pic-8 FP.webp" alt="Product Image">
                     <img class="hover-img" src="products men/pic-8b FP.webp" alt="Product Hover Image">
                 </div>
             </a>
-            <div id="title-card">
+            <div id="caps-title-card">
                 <div>
-                    <p id="title">Blue Indigo Denim Jeans</p>
-                    <span id="price">Rs. 6599</span>
+                    <p id="caps-title">Blue Indigo Denim Jeans</p>
+                    <span id="caps-price">Rs. 6599</span>
                 </div>
                 <div>
                     <i class="fa-regular fa-heart"></i>
@@ -250,27 +301,110 @@
     </aside>
 
     <!-- Footer -->
-        <footer>
-            <div id="footerContainer">
-                
-                <div id="community">
-                    
-                    <div>
-                        <h1>JOIN OUR COMMUNITY</h1>
-                        <p>Get the latest news & offers</p>
-                    </div>
-                    
-                    <div>
-                        <div id="inputEmail">
-                            <input type="text" placeholder="Email Address">
-                        </div>
-                    </div>
-    
+    <footer>
+        <div id="footerContainer">
+
+            <div id="community">
+
+                <div>
+                    <h1>JOIN OUR COMMUNITY</h1>
+                    <p>Get the latest news & offers</p>
                 </div>
-    
+
+                <div>
+                    <div id="inputEmail">
+                        <input type="text" placeholder="Email Address">
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="divider"></div>
+
+            <div id="lists">
+
+                <div id="subLists">
+
+                    <div id="support">
+                        <p>SUPPORT</p>
+                        <ul>
+                            <li>FAQs</li>
+                            <li>Contact Us</li>
+                            <li>Return & Refund Policy</li>
+                            <li>Shipping & Delivery</li>
+                            <li>Order Tracking</li>
+                        </ul>
+                    </div>
+
+                    <div id="dividerList"></div>
+
+                    <div id="services">
+                        <p>SERVICES</p>
+                        <ul>
+                            <li>Custom Orders</li>
+                            <li>Gift Cards</li>
+                            <li>Size Guide</li>
+                            <li>Personal Styling</li>
+                            <li>Affiliate Program</li>
+                        </ul>
+                    </div>
+
+                    <div id="dividerList"></div>
+
+                    <div id="about">
+                        <p>ABOUT</p>
+                        <ul>
+                            <li>Our Story</li>
+                            <li>Sustainablitiy & Ethics</li>
+                            <li>Careers</li>
+                            <li>Blog</li>
+                            <li>Customer Reviews</li>
+                        </ul>
+                    </div>
+
+                    <div id="dividerList"></div>
+
+                    <div id="parthner">
+                        <p>PARTHNER</p>
+                        <ul>
+                            <li>Brand Collabrations</li>
+                            <li>Influencer Program</li>
+                            <li>Whole Sale Inquiries</li>
+                            <li>Supplier Portal</li>
+                            <li>Franchise Opportunities</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div id="footerLogo">
+                    <h1>LOGO</h1>
+                </div>
+
+            </div>
+
+            <div id="divider"></div>
+
+            <div id="copyRight">
+
+                <div id="terms">
+                    <p>Privacy & Cookies</p>
+                    <a href="./Pages/Terms & Condition/termsCondition.html">Terms & Conditions</a>
+                </div>
+
+                <div>
+                    <p>&copy; Logo. All rights reserved</p>
+                </div>
+
+            </div>
+
+        </div>
+
     </footer>
-    
-    <script src="caps.js"></script>
+
 </body>
+
+<script src="caps.js"></script>
+<script src="../../script.js"></script>
 
 </html>
