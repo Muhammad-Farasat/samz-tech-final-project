@@ -134,8 +134,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 1200px;
-    padding: 0 20px;
+    padding: 40px;
     background: url('texture-bg.jpg'); 
     background-size: cover;
     background-position: center;
@@ -155,7 +154,7 @@ header {
 .image-container {
     position: relative;
     width: 100%;
-    height: 600px; 
+    height: 350px; 
     overflow: hidden;
 }
 
@@ -194,17 +193,19 @@ header {
     text-align: left;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
 
 #title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
+    padding-left: 10px;
 }
 
 #price {
     font-size: 16px;
     color: #1a1a1aa9;
+    padding-left: 10px;
 }
 /*hover heart*/
 .fa-regular {
