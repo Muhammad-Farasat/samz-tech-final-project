@@ -36,78 +36,7 @@ ul li {
     list-style: none;
 }
 
-/* NAV BAR STYLING */
 
-nav {
-    height: max-content;
-    background-color: #fff;
-    margin: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 8px;
-    position: sticky;
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.7);
-}
-
-nav div {
-    width: 100%;
-}
-/* MENU ICON DESIGN */
-
-#menu {
-    display: none;
-    width: 30px;
-    flex-direction: column;
-    row-gap: 4px;
-    cursor: pointer;
-}
-
-#menu span {
-    width: 100%;
-    height: 2px;
-    border: 2px solid #111;
-    transition: all 0.3s ease;
-    transform-origin: center;
-}
-
-#menu.active span:nth-child(1){
-    transform: translateY(9px) rotate(45deg) ;
-}
-
-#menu.active span:nth-child(2){
-    opacity: 0;
-}
-
-#menu.active span:nth-child(3){
-    transform: translateY(-6px) rotate(-45deg);
-}
-
-#pageDirector {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-#other {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 16px;
-
-}
-
-#logo {
-    text-align: center;
-}
-
-.bagBtn {
-    background: none;
-    border: none;
-    font-size: 14px;
-    cursor: pointer;
-}
 /*kids heading*/
 .kids-section {
     margin-top: 20px; 
@@ -119,6 +48,8 @@ nav div {
     text-align: center;
     background: none; 
 }
+
+
 /*header section*/
 header {
     background-color: white;
@@ -132,6 +63,16 @@ header {
 /* Cards box */
 #cards {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    background: url('texture-bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+/* Cards Container */
+#kids-cards {
+    display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
     padding: 0 20px;
@@ -144,11 +85,12 @@ header {
     
    
 }
-#cards {
+#kids-cards {
     flex-grow: 1;
 }
-/* for a Card Design */
-#card {
+
+/* a Card Design */
+#kids-card {
     background-color: #fff;
     border-radius: 10px; 
     overflow: hidden;
@@ -196,20 +138,24 @@ header {
 }
 
 /* title name and Price */
-#title-card {
+#kids-title-card {
     text-align: left;
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
 
+
 #title {
     font-size: 20px;
+}
+#kids-title {
+    font-size: 18px;
     font-weight: 400;
     padding-left: 10px;
 }
 
-#price {
+#kids-price {
     font-size: 16px;
     color: #1a1a1aa9;
     padding-left: 10px;

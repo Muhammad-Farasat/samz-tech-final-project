@@ -13,7 +13,7 @@ body {
 
 }
 /*after opnening filter bar*/
-body::after {
+body::after  {
     content: "";
     position: fixed;
     top: 0;
@@ -36,78 +36,9 @@ ul li {
     list-style: none;
 }
 
-/* NAV BAR STYLING */
-
-nav {
-    height: max-content;
-    background-color: #fff;
-    margin: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 8px;
-    position: sticky;
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.7);
-}
-
-nav div {
-    width: 100%;
-}
-/* MENU ICON DESIGN */
-
-#menu {
-    display: none;
-    width: 30px;
-    flex-direction: column;
-    row-gap: 4px;
-    cursor: pointer;
-}
-
-#menu span {
-    width: 100%;
-    height: 2px;
-    border: 2px solid #111;
-    transition: all 0.3s ease;
-    transform-origin: center;
-}
-
-#menu.active span:nth-child(1){
-    transform: translateY(9px) rotate(45deg) ;
-}
-
-#menu.active span:nth-child(2){
-    opacity: 0;
-}
-
-#menu.active span:nth-child(3){
-    transform: translateY(-6px) rotate(-45deg);
-}
-
-#pageDirector {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 
-#other {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 16px;
 
-}
-
-#logo {
-    text-align: center;
-}
-
-.bagBtn {
-    background: none;
-    border: none;
-    font-size: 14px;
-    cursor: pointer;
-}
 /*caps heading*/
 .caps-section {
     margin-top: 20px; 
@@ -130,7 +61,7 @@ header {
 }
 
 /* Cards Container */
-#cards {
+#caps-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px; 
@@ -142,13 +73,13 @@ header {
    
    
 }
-#cards {
+#caps-cards {
     flex-grow: 1;
 }
 
 
 /* a Card Design */
-#card {
+#caps-card {
     background-color: #fff;
     border-radius: 10px; 
     overflow: hidden;
@@ -197,20 +128,25 @@ header {
 }
 
 /* title name and Price */
-#title-card {
+#caps-title-card {
     text-align: left;
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
 
+
 #title {
     font-size: 20px;
+}
+#caps-title {
+    font-size: 18px;
+
     font-weight: 400;
     padding-left: 10px;
 }
 
-#price {
+#caps-price {
     font-size: 16px;
     color: #1a1a1aa9;
     padding-left: 10px;
@@ -408,5 +344,4 @@ input::placeholder {
     nav div {
         width: 30%;
     }
-
 }
