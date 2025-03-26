@@ -66,7 +66,7 @@
     <section id="men-main">
         <!-- Filter sideButton -->
         <button id="filterBtn">Sort & Filters</button>
-    
+
         <div id="men-cards">
             <!-- CARD 1 -->
             <div id="men-card">
@@ -266,10 +266,35 @@
                 <option>Large</option>
             </select>
         </div>
+        <!-- Price Range Filter -->
+<div class="filter-category">
+    <h3>Price Range</h3>
+    <div class="price-range">
+        <input type="range" id="priceMin" min="0" max="12000" value="0" step="100">
+        <input type="range" id="priceMax" min="0" max="12000" value="12000" step="100">
+        <div class="price-values">
+            <span>Rs<span id="minPriceValue">0</span></span>
+            <span>Rs<span id="maxPriceValue">12000</span></span>
+        </div>
+    </div>
+</div>
+
+<!-- Sort Options -->
+<div class="filter-category">
+    <h3>Sort By</h3>
+    <select id="sortOption">
+        <option value="default">Default</option>
+        <option value="price-low">Price: Low to High</option>
+        <option value="price-high">Price: High to Low</option>
+        <option value="newest">Newest First</option>
+    </select>
+</div>
 
         <!-- Apply & Clear for filter Buttons -->
-        <button class="apply">Apply Filter</button>
-        <button class="clear">Clear Filter</button>
+<div class="button-container">
+    <button class="apply">Apply Filter</button>
+    <button class="clear">Clear Filter</button>
+</div>
     </aside>
     
 
@@ -376,9 +401,7 @@
      </footer>
 
 
-    
+     <script src="men.js"></script>
+     <script src="../../script.js"></script>
 </body>
-<script src="men.js"></script>
-<script src="../../script.js"></script>
-
 </html>

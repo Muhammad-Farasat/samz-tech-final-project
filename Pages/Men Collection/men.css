@@ -33,78 +33,6 @@ ul li {
     list-style: none;
 }
 
-/* NAV BAR STYLING */
-
-nav {
-    height: max-content;
-    background-color: #fff;
-    margin: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 8px;
-    position: sticky;
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.7);
-}
-
-nav div {
-    width: 100%;
-}
-/* MENU ICON DESIGN */
-
-#menu {
-    display: none;
-    width: 30px;
-    flex-direction: column;
-    row-gap: 4px;
-    cursor: pointer;
-}
-
-#menu span {
-    width: 100%;
-    height: 2px;
-    border: 2px solid #111;
-    transition: all 0.3s ease;
-    transform-origin: center;
-}
-
-#menu.active span:nth-child(1){
-    transform: translateY(9px) rotate(45deg) ;
-}
-
-#menu.active span:nth-child(2){
-    opacity: 0;
-}
-
-#menu.active span:nth-child(3){
-    transform: translateY(-6px) rotate(-45deg);
-}
-
-#pageDirector {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-#other {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 16px;
-
-}
-
-#logo {
-    text-align: center;
-}
-
-.bagBtn {
-    background: none;
-    border: none;
-    font-size: 14px;
-    cursor: pointer;
-}
 .men-section {
     text-align: left;
     padding: 20px;
@@ -135,7 +63,7 @@ header {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 40px;
-    background: url('texture-bg.jpg'); 
+    background: url('Assests/texture.jpg'); 
     background-size: cover;
     background-position: center;
 }
@@ -148,6 +76,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s; 
     width: 100%;
+    transition: all 0.3s ease;
 }
 
 /* Image Container */
@@ -250,6 +179,8 @@ header {
     padding: 20px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
     z-index: 1001;
+    overflow-y: auto;
+    padding-bottom: 120px;
 }
 
 /*  Close Button of the filter */
@@ -293,7 +224,17 @@ header {
 }
 
 /* filter Button-1 */
-.apply {
+#filterPanel .button-container {
+    position: sticky;
+    bottom: 0;
+    background: white;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+/*filter buttons*/
+.apply, .clear {
     padding: 12px;
     width: 100%;
     background: black;
@@ -302,17 +243,41 @@ header {
     cursor: pointer;
     margin-top: 10px;
     border-radius: 5px;
+    pointer-events: auto; 
+    z-index: 1;
+    pointer-events: auto; 
+    z-index: 1; 
 }
-/*filter button-2*/
-.clear {
-    padding: 12px;
+    
+
+.price-range {
+    margin-top: 15px;
+}
+
+.price-range input[type="range"] {
     width: 100%;
-    background: grey;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin-top: 5px;
+    margin: 10px 0;
+    -webkit-slider-thumb: none;
+    height: 5px;
+    background: #ddd;
     border-radius: 5px;
+    outline: none;
+}
+
+.price-range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.price-values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 14px;
 }
 
 

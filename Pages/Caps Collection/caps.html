@@ -278,10 +278,10 @@
             <h3>Category</h3>
             <select>
                 <option>Select</option>
-                <option>Hooded Jacket</option>
-                <option>Leather Jackets</option>
-                <option>Bumper</option>
-                <option>Raincoat</option>
+                <option>Trucker Hat</option>
+                <option>Baseball Cap</option>
+                <option>Snapback</option>
+                <option>Fedora</option>
             </select>
         </div>
 
@@ -290,15 +290,41 @@
             <h3>Size</h3>
             <select>
                 <option>Select</option>
-                <option>6-8 years</option>
-                <option>9-12 years</option>
-                <option>13-15 years</option>
+                <option>Small</option>
+                <option>Large</option>
+                <option>Medium</option>
             </select>
         </div>
 
+        <!-- Price Range Filter -->
+<div class="filter-category">
+    <h3>Price Range</h3>
+    <div class="price-range">
+        <input type="range" id="priceMin" min="0" max="12000" value="0" step="100">
+        <input type="range" id="priceMax" min="0" max="12000" value="12000" step="100">
+        <div class="price-values">
+            <span>Rs<span id="minPriceValue">0</span></span>
+            <span>Rs<span id="maxPriceValue">12000</span></span>
+        </div>
+    </div>
+</div>
+
+<!-- Sort Options -->
+<div class="filter-category">
+    <h3>Sort By</h3>
+    <select id="sortOption">
+        <option value="default">Default</option>
+        <option value="price-low">Price: Low to High</option>
+        <option value="price-high">Price: High to Low</option>
+        <option value="newest">Newest First</option>
+    </select>
+</div>
+
         <!-- Apply & Clear for filter Buttons -->
-        <button class="apply">Apply Filter</button>
-        <button class="clear">Clear Filter</button>
+<div class="button-container">
+    <button class="apply">Apply Filter</button>
+    <button class="clear">Clear Filter</button>
+</div>
     </aside>
 
     <!-- Footer -->
