@@ -12,81 +12,89 @@
 
 <body>
 
-   
-        <!-- NAVBAR -->
-        <nav>
 
-            <!-- HAMBURGER ICON -->
-            <div id="menu">
-                <span></span>
-                <span></span>
-                <span></span>
+    <!-- NAVBAR -->
+    <nav>
+
+        <!-- HAMBURGER ICON -->
+        <div id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- PAGE NAVIGATOR -->
+        <div id="pageDirector">
+
+            <a href="/Pages/Men Collection/men.html">MEN</a>
+            <a href="/Pages/Women Collection/women.html">WOMEN</a>
+            <a href="/Pages/Kids Collection/kids.html">KIDS</a>
+
+        </div>
+
+        <!-- LOGO -->
+        <div id="logo">
+            <img src="/Assests/Products/logo.png" alt="">
+        </div>
+
+        <!-- OTHERS -->
+        <div id="other">
+
+            <button class="bagBtn" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="btnText">&nbsp;&nbsp;SEARCH</span>
+            </button>
+
+            <div id="account" class="account">
+                <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
             </div>
 
-            <!-- PAGE NAVIGATOR -->
-            <div id="pageDirector">
+            <button class="bagBtn" id="openBag">
+                <span class="btnText">BAGS</span> &nbsp;
+                <span class="bracket">[</span>&nbsp;
+                <span id="cartNumber">0</span> &nbsp;
+                <span class="bracket">]</span>
+            </button>
 
-                <a href="/Pages/Men Collection/men.html">MEN</a>
-                <a href="/Pages/Women Collection/women.html">WOMEN</a>
-                <a href="/Pages/Kids Collection/kids.html">KIDS</a>
+        </div>
 
+        <div id="smallScreenNav">
+            <a href="/Pages/Men Collection/men.html">MEN</a>
+            <div id="divider"></div>
+            <a href="/Pages/Women Collection/women.html">WOMEN</a>
+            <div id="divider"></div>
+            <a href="/Pages/Kids Collection/kids.html">KIDS</a>
+            <div id="divider"></div>
+
+            <div class="account">
+                <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
+            </div>
+        </div>
+
+        <div id="bags">
+
+            <div id="bagTopSection">
+                <h4>BAGS</h4>
+                <p class="cross" id="closeBtn">
+                    <i class="fa-solid fa-xmark"></i>
+                </p>
             </div>
 
-            <!-- LOGO -->
-            <div id="logo">
-                <img src="/Assests/Products/logo.png" alt="">
-            </div>
+            <div id="bagCart"></div>
 
-            <!-- OTHERS -->
-            <div id="other">
-
-                <button class="bagBtn" id="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <span class="btnText">&nbsp;&nbsp;SEARCH</span>
-                </button>
-                <div id="account">
-                    <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
-
-                </div>
-                <button class="bagBtn" id="openBag"> <span class="btnText">BAGS</span> &nbsp;<span
-                        class="bracket">[</span>&nbsp; <span id="cartNumber">0</span> &nbsp;<span
-                        class="bracket">]</span> </button>
-
-            </div>
-
-            <div id="smallScreenNav">
-                <a href="#">MEN</a>
-                <div id="divider"></div>
-                <a href="#">WOMEN</a>
-                <div id="divider"></div>
-                <a href="#">KIDS</a>
-                <div id="divider"></div>
-
-                <button class="bagBtn">ACCOUNT</button>
-            </div>
-
-            <div id="bags">
-
-                <div id="bagTopSection">
-                    <h4>BAGS</h4>
-                    <p class="cross" id="closeBtn">
-                        <i class="fa-solid fa-xmark"></i>
-                    </p>
-                </div>
-
-                <div id="bagCart"></div>
-
-                <div id="checkoutBtn">
+            <div id="checkoutBtn">
+                <a href="/Pages/CheckOut/checkout.html">
                     <button id="checkoutButton">Proceed to Checkout</button>
-                </div>
-
+                </a>
             </div>
 
-        </nav>
+        </div>
+
+    </nav>
 
     <!--kids heading-->
     <section class="kids-section">
-        
+
         <h1>
             KIDS
         </h1>
@@ -99,7 +107,7 @@
 
         <!--filter section-->
         <button id="filterBtn">Sort & Filters</button>
-    
+
         <div id="kids-cards">
             <!-- CARD 1 -->
             <div id="kids-card">
@@ -119,7 +127,7 @@
                     </div>
                 </div>
             </div>
-    
+
             <!-- CARD 2 -->
             <div id="kids-card">
                 <a href="../Product Details/product.html?id=35">
@@ -143,7 +151,8 @@
                 <a href="../Product Details/product.html?id=36">
                     <div class="image-container">
                         <img class="main-img" src="/Assests/Products/Kids/Jacket_Three/1.png" alt="Product Image">
-                        <img class="hover-img" src="/Assests/Products/Kids/Jacket_Three/2.png" alt="Product Hover Image">
+                        <img class="hover-img" src="/Assests/Products/Kids/Jacket_Three/2.png"
+                            alt="Product Hover Image">
                     </div>
                 </a>
                 <div id="kids-title-card">
@@ -210,7 +219,7 @@
                     </div>
                 </div>
             </div>
-      
+
             <!-- CARD 7 -->
             <!-- <div id="kids-card">
                 <a href="mendetail.html?id=7">
@@ -229,7 +238,7 @@
                     </div>
                 </div>
             </div> -->
-      
+
             <!-- CARD 8 -->
             <!-- <div id="kids-card">
                 <a href="Smendetail.html?id=8">
@@ -248,7 +257,7 @@
                     </div>
                 </div>
             </div> -->
-      
+
         </div>
 
     </div>
@@ -315,7 +324,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!-- Sort Options -->
         <div class="filter-category">
             <h3>Sort By</h3>
@@ -326,13 +335,14 @@
                 <option value="newest">Newest First</option>
             </select>
         </div>
-        
-                <!-- Apply & Clear for filter Buttons -->
+
+        <!-- Apply & Clear for filter Buttons -->
         <div class="button-container">
             <button class="apply">Apply Filter</button>
             <button class="clear">Clear Filter</button>
         </div>
     </aside>
+
 
     <!-- Footer -->
     <footer>
@@ -412,7 +422,7 @@
                 </div>
 
                 <div id="footerLogo">
-                    <h1>LOGO</h1>
+                    <img src="/Assests/Products/logo.png" alt="" srcset="">
                 </div>
 
             </div>
@@ -427,13 +437,12 @@
                 </div>
 
                 <div>
-                    <p>&copy; Logo. All rights reserved</p>
+                    <p>&copy; WESTEVO. All rights reserved</p>
                 </div>
 
             </div>
 
         </div>
-
     </footer>
 
 </body>

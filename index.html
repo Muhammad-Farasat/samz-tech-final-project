@@ -48,25 +48,31 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <span class="btnText">&nbsp;&nbsp;SEARCH</span>
                 </button>
-                <div id="account">
-                    <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
 
+                <div id="account" class="account">
+                    <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
                 </div>
-                <button class="bagBtn" id="openBag"> <span class="btnText">BAGS</span> &nbsp;<span
-                        class="bracket">[</span>&nbsp; <span id="cartNumber">0</span> &nbsp;<span
-                        class="bracket">]</span> </button>
+                
+                <button class="bagBtn" id="openBag"> 
+                    <span class="btnText">BAGS</span> &nbsp;
+                    <span class="bracket">[</span>&nbsp; 
+                    <span id="cartNumber">0</span> &nbsp;
+                    <span class="bracket">]</span> 
+                </button>
 
             </div>
 
             <div id="smallScreenNav">
-                <a href="#">MEN</a>
+                <a href="/Pages/Men Collection/men.html">MEN</a>
                 <div id="divider"></div>
-                <a href="#">WOMEN</a>
+                <a href="/Pages/Women Collection/women.html">WOMEN</a>
                 <div id="divider"></div>
-                <a href="#">KIDS</a>
+                <a href="/Pages/Kids Collection/kids.html">KIDS</a>
                 <div id="divider"></div>
 
-                <button class="bagBtn">ACCOUNT</button>
+                <div class="account">
+                    <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
+                </div>
             </div>
 
             <div id="bags">
@@ -98,7 +104,7 @@
 
             <div>
                 <h1>NEW ARRIVALS</h1>
-                <a href="/Pages/New Arrivals/arrivals.html">
+                <a href="/Pages/Men Collection/men.html">
                 <button id="mainBtn">
                         VISIT HERE <i class="fa-solid fa-location-arrow"></i>
                     </button>
@@ -117,7 +123,7 @@
                 <!-- HEADING -->
                 <div id="contentHeading">
                     <h3>
-                        <span class="bracket">[</span> NEW ARRIVALS <span class="bracket">]</span>
+                        NEW ARRIVALS
                     </h3>
                 </div>
 
@@ -132,7 +138,7 @@
                         </a>
                         <div id="title-card">
                             <div>
-                                <p id="title">Vented Premium Leather Scooter</p>
+                                <p id="title">Black Vented Jacket</p>
                                 <span id="price">Rs. 4999</span>
                             </div>
                             <div>
@@ -149,8 +155,8 @@
                         </a>
                         <div id="title-card">
                             <div>
-                                <p id="title">Men's Distressed Brown Padded</p>
-                                <span id="price">Rs. 6999</span>
+                                <p id="title">Distressed Brown Jacket</p>
+                                <span id="price">Rs. 5999</span>
                             </div>
                             <div>
                                 <i class="fa-regular fa-heart"></i>
@@ -166,7 +172,7 @@
                         </a>
                         <div id="title-card">
                             <div id="title">
-                                <p>Diamond Stitched Shoulders Jacket</p>
+                                <p>Vintage Diamond Jacket</p>
                                 <span id="price">Rs. 8999</span>
                             </div>
                             <div>
@@ -183,8 +189,8 @@
                         </a>
                         <div id="title-card">
                             <div id="title">
-                                <p>Premium Black Leather Jacket</p>
-                                <span id="price">Rs. 3999</span>
+                                <p>Premium Black Jacket</p>
+                                <span id="price">Rs. 7999</span>
                             </div>
                             <div>
                                 <i class="fa-regular fa-heart"></i>
@@ -330,6 +336,14 @@
 
     </main>
 
+    <div id="popupContainer">
+        <div id="popup">
+            <button id="closePopup">&times;</button>
+            <h2>NEW ARRIVALS</h2>
+            <p>Check out the latest trends in our store.</p>
+            <a href="/Pages/Men Collection/men.html" class="popupBtn" >Explore Now</a>
+        </div>
+    </div>
 
 
 </body>

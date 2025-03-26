@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
             
             productDiv.innerHTML = `
                 <div class="image-placeholder">
-                    ${item.image ? `<img src="${item.image}" alt="${item.title}" class="product-image">` : '<i class="fas fa-image"></i>'}
+                    ${item.image ? `<img src="${item.image}" alt="${item.name}" class="product-image">` : '<i class="fas fa-image"></i>'}
                 </div>
                 <div class="product-details">
-                    <p>${item.title || 'Product'}</p>
+                    <p>${item.name || 'Product'}</p>
                     <p>Rs. ${item.price || '0'}</p>
                     <div class="actions">
                         <button class="quantity-btn minus">-</button>

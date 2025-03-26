@@ -18,76 +18,84 @@
 
     
     
-        <!-- NAVBAR -->
-        <nav>
+    <!-- NAVBAR -->
+    <nav>
 
-            <!-- HAMBURGER ICON -->
-            <div id="menu">
-                <span></span>
-                <span></span>
-                <span></span>
+        <!-- HAMBURGER ICON -->
+        <div id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- PAGE NAVIGATOR -->
+        <div id="pageDirector">
+
+            <a href="/Pages/Men Collection/men.html">MEN</a>
+            <a href="/Pages/Women Collection/women.html">WOMEN</a>
+            <a href="/Pages/Kids Collection/kids.html">KIDS</a>
+
+        </div>
+
+        <!-- LOGO -->
+        <div id="logo">
+            <img src="/Assests/Products/logo.png" alt="">
+        </div>
+
+        <!-- OTHERS -->
+        <div id="other">
+
+            <button class="bagBtn" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="btnText">&nbsp;&nbsp;SEARCH</span>
+            </button>
+
+            <div id="account" class="account">
+                <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
+            </div>
+            
+            <button class="bagBtn" id="openBag"> 
+                <span class="btnText">BAGS</span> &nbsp;
+                <span class="bracket">[</span>&nbsp; 
+                <span id="cartNumber">0</span> &nbsp;
+                <span class="bracket">]</span> 
+            </button>
+
+        </div>
+
+        <div id="smallScreenNav">
+            <a href="/Pages/Men Collection/men.html">MEN</a>
+            <div id="divider"></div>
+            <a href="/Pages/Women Collection/women.html">WOMEN</a>
+            <div id="divider"></div>
+            <a href="/Pages/Kids Collection/kids.html">KIDS</a>
+            <div id="divider"></div>
+
+            <div class="account">
+                <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
+            </div>
+        </div>
+
+        <div id="bags">
+
+            <div id="bagTopSection">
+                <h4>BAGS</h4>
+                <p class="cross" id="closeBtn">
+                    <i class="fa-solid fa-xmark"></i>
+                </p>
             </div>
 
-            <!-- PAGE NAVIGATOR -->
-            <div id="pageDirector">
+            <div id="bagCart"></div>
 
-                <a href="/Pages/Men Collection/men.html">MEN</a>
-                <a href="/Pages/Women Collection/women.html">WOMEN</a>
-                <a href="/Pages/Kids Collection/kids.html">KIDS</a>
-
-            </div>
-
-            <!-- LOGO -->
-            <div id="logo">
-                <img src="/Assests/Products/logo.png" alt="">
-            </div>
-
-            <!-- OTHERS -->
-            <div id="other">
-
-                <button class="bagBtn" id="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <span class="btnText">&nbsp;&nbsp;SEARCH</span>
-                </button>
-                <div id="account">
-                    <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
-
-                </div>
-                <button class="bagBtn" id="openBag"> <span class="btnText">BAGS</span> &nbsp;<span
-                        class="bracket">[</span>&nbsp; <span id="cartNumber">0</span> &nbsp;<span
-                        class="bracket">]</span> </button>
-
-            </div>
-
-            <div id="smallScreenNav">
-                <a href="#">MEN</a>
-                <div id="divider"></div>
-                <a href="#">WOMEN</a>
-                <div id="divider"></div>
-                <a href="#">KIDS</a>
-                <div id="divider"></div>
-
-                <button class="bagBtn">ACCOUNT</button>
-            </div>
-
-            <div id="bags">
-
-                <div id="bagTopSection">
-                    <h4>BAGS</h4>
-                    <p class="cross" id="closeBtn">
-                        <i class="fa-solid fa-xmark"></i>
-                    </p>
-                </div>
-
-                <div id="bagCart"></div>
-
-                <div id="checkoutBtn">
+            <div id="checkoutBtn">
+                <a href="/Pages/CheckOut/checkout.html">
                     <button id="checkoutButton">Proceed to Checkout</button>
-                </div>
-
+                </a>
             </div>
 
-        </nav>
+        </div>
+
+    </nav>
 
     <!-- MEN Heading -->
     <section class="men-section">
@@ -294,10 +302,6 @@
 
     </section>
 
-
-
-
-
     <!-- blurring background when filter opens -->
     <div id="overlay"></div>
 
@@ -349,17 +353,17 @@
     </aside>
     
 
-     <!-- Footer -->
-     <footer>
+    <!-- Footer -->
+    <footer>
         <div id="footerContainer">
-            
+
             <div id="community">
-                
+
                 <div>
                     <h1>JOIN OUR COMMUNITY</h1>
                     <p>Get the latest news & offers</p>
                 </div>
-                
+
                 <div>
                     <div id="inputEmail">
                         <input type="text" placeholder="Email Address">
@@ -373,7 +377,7 @@
             <div id="lists">
 
                 <div id="subLists">
-                   
+
                     <div id="support">
                         <p>SUPPORT</p>
                         <ul>
@@ -427,7 +431,7 @@
                 </div>
 
                 <div id="footerLogo">
-                    <h1>LOGO</h1>
+                    <img src="/Assests/Products/logo.png" alt="" srcset="">
                 </div>
 
             </div>
@@ -438,18 +442,18 @@
 
                 <div id="terms">
                     <p>Privacy & Cookies</p>
-                    <a href="./Pages/Terms & Condition/termsCondition.html" >Terms & Conditions</a>
+                    <a href="./Pages/Terms & Condition/termsCondition.html">Terms & Conditions</a>
                 </div>
 
                 <div>
-                    <p>&copy; Logo. All rights reserved</p>
+                    <p>&copy; WESTEVO. All rights reserved</p>
                 </div>
 
             </div>
 
         </div>
 
-     </footer>
+    </footer>
 
 
     

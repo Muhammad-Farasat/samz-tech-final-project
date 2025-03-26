@@ -88,7 +88,7 @@ fetch('../../product.json').then(response => response.json()).then(products => {
 
             addToCart(cartItem)
             window.location.reload()
-            alert("Added to Cart..!")
+            Swal.fire("Added to Cart..!")
 
         })
 

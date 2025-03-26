@@ -38,7 +38,7 @@ function displayCartItem() {
 
     if (cart.length === 0) {
         bagCart.innerHTML = '<p>No item in cart</p>'
-        return
+        return;
     }
 
     cart.forEach((item) => {
@@ -100,10 +100,12 @@ function toggleFunction() {
 document.getElementById('openBag').addEventListener('click', () => {
     toggleFunction()
     displayCartItem()
+    disableScrol()
 })
 
 document.getElementById('closeBtn').addEventListener('click', () => {
     toggleFunction()
+    enableScrol()
 })
 
 
@@ -128,37 +130,82 @@ if (checkOutBtn) {
     checkOutBtn.disabled = storedCart.length === 0
 }
 
+// NAVBAR ACCOUNT CHECK & UPDATE
 
 function accountCheck() {
 
     const checkUser = JSON.parse(localStorage.getItem('user'))
-    console.log(checkUser);
-
+   
     if (!checkUser) {
         return;
     }
 
-    let account = document.querySelector('#account')
+    let accounts = document.querySelectorAll('.account')
 
 
-    account.innerHTML =
-        ` 
-        <div class='userDropdown'>
-            <button class='userMenu' > ${checkUser.username} <i class="fa-solid fa-angle-down"></i> </button>
-            <div class='dropdown-content'>
-                <span>${checkUser.username}</span>
-                <button id='logout-btn'>Logout</button>
+    accounts.forEach(account => {
+
+        account.innerHTML =
+            ` 
+            <div class='userDropdown'>
+                <button class='userMenu' > ${checkUser.username} <i class="fa-solid fa-angle-down"></i> </button>
+                <div class='dropdown-content'>
+                    <span>${checkUser.username}</span>
+                    <button id='logout-btn'>Logout</button>
+                </div>
             </div>
-        </div>
-        `
-
-    document.getElementById('logout-btn').addEventListener('click', () => {
-        localStorage.removeItem('user')
-        accountCheck()
-        window.location.reload()
+            `
     })
+
+    const logBtn =  document.getElementById('logout-btn')
+
+    if (logBtn) {
+        
+        logBtn.addEventListener('click', () => {
+            localStorage.removeItem('user')
+            accountCheck()
+            window.location.reload()
+        })
+    }
+
 
 }
 
 accountCheck()
 
+
+// POP-UP APPEARNCE
+
+document.addEventListener('DOMContentLoaded', function (){
+    const popupContainer = document.getElementById('popupContainer')
+    const closeBtn = document.getElementById('closePopup')
+
+    setTimeout(()=>{
+        popupContainer.classList.add('show')
+        disableScrol()
+    }, 2000)
+
+    closeBtn.addEventListener('click', ()=>{
+        popupContainer.classList.remove('show')
+        enableScrol()
+    })
+
+    popupContainer.addEventListener('click', (e) => {
+        if (e.target === popupContainer) {
+            popupContainer.classList.remove('show')
+            enableScrol()
+        }
+    })
+
+
+})
+
+
+// Enable / Disable Scroll
+function disableScrol(){
+    document.body.style.overflow = 'hidden'
+}
+
+function enableScrol(){
+    document.body.style.overflow = ''
+}
