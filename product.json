@@ -552,8 +552,8 @@
         "price": 999,
         "description": "A striking red bag, perfect for making a fashion statement.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/Black/Leather-Cap-Black1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/Black/Leather-Cap-Black2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/black/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/black/2.jpg"
         ],
         "sizes": [
             "S",
@@ -568,8 +568,8 @@
         "price": 599,
         "description": "A striking red bag, perfect for making a fashion statement.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/Brown/Leather-Cap-Brown1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/Brown/Leather-Cap-Brown2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/brown/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/brown/2.jpg"
         ],
         "sizes": [
             "S",
@@ -584,8 +584,8 @@
         "price": 599,
         "description": "A striking red bag, perfect for making a fashion statement.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/White/Leather-Cap-White1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/White/Leather-Cap-White2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/white/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/white/2.jpg"
         ],
         "sizes": [
             "S",
@@ -682,6 +682,40 @@
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Six/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Six/2.jpg"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Cap - Pink",
+        "price": 599,
+        "description": "A striking red bag, perfect for making a fashion statement.",
+        "images": [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/pink/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/pink/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/pink/3.jpg"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Cap - Light Brown",
+        "price": 599,
+        "description": "A striking red bag, perfect for making a fashion statement.",
+        "images": [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/light brown/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/light brown/2.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/light brown/3.jpg"
         ],
         "sizes": [
             "S",
