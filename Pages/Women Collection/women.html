@@ -10,129 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-
-    <style>
-        body {
-            background-color: #f9f9f9;
-        }
-
-        /* Breadcrumb navigation */
-        .breadcrumb {
-            padding: 10px 20px;
-            background-color: white;
-        }
-
-        .breadcrumb ul {
-            list-style: none;
-        }
-
-        .breadcrumb a {
-            color: #999;
-            text-decoration: none;
-        }
-
-        /* Main header */
-        .main-header {
-            background-color: #e0e0e0;
-            padding: 15px 0;
-        }
-
-        .main-nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-            background-color: white;
-        }
-
-        .nav-links {
-            display: flex;
-            list-style: none;
-        }
-
-        .nav-links li {
-            margin-right: 20px;
-        }
-
-        .nav-links a,
-        .nav-actions a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            padding: 15px 10px;
-            display: inline-block;
-        }
-
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        .nav-actions {
-            display: flex;
-        }
-
-        .nav-actions a {
-            margin-left: 20px;
-        }
-
-        /* Page title section */
-        .page-title {
-            background-color: #e0e0e0;
-            padding: 10px 0px;
-        }
-
-        .page-title h1 {
-            max-width: 1200px;
-            margin: 0 auto;
-            font-size: 36px;
-            text-align: center;
-
-        }
-
-
-        /* filterbutton */
-        .filter-btn {
-            background-color: #000;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-
-        .wishlist-btn {
-            position: absolute;
-            right: 10px;
-            top: 15px;
-            background: none;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            color: #999;
-        }
 
 
 
-        img:hover {
-            transform: scale(1.02);
-        }
-
-        /* Responsive design */
-        @media (max-width: 768px) {
-            .product-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media (max-width: 480px) {
-            .product-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
 
 </head>
 
@@ -216,17 +96,17 @@
         </nav>
 
         <div class="texture-overlay"></div>
-       
+
         <h1>WOMEN</h1>
-        
+
     </section>
 
 
     <section class="women-main">
         <!-- Filter bar -->
-        <section class="filter-bar">
-            <button class="filter-btn">Sort & Filter</button>
-        </section>
+        
+            <button id="filterBtn">Sort & Filter</button>
+      
 
         <!-- Product grid -->
         <section class="product-grid">
@@ -235,7 +115,7 @@
                 <div class="product-image">
                     <a href="../Product Details/product.html?id=11">
                         <div class="img-container">
-                            <img  class="main-img"
+                            <img class="main-img"
                                 src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Black Fringe and Rivet Leather Jacket/High Mileage Ladies Black Fringe and Rivet Leather Jacket01.jpg">
                             <!-- <img
                                 src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/High Mileage Ladies Black Fringe and Rivet Leather Jacket/High Mileage Ladies Black Fringe and Rivet Leather Jacket02.jpg" class="hover-img"> -->
@@ -247,7 +127,7 @@
                 <div class="product-info">
                     <div>
                         <h3 class="product-title">Black Fringe Jacket</h3>
-                        <p class="product-price">Rs. 4999</p>
+                        <p class="product-price">Rs. 11900</p>
                     </div>
                     <div>
                         <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
@@ -327,7 +207,8 @@
                 <div class="product-image">
                     <a href="../Product Details/product.html?id=15">
                         <div class="img-container">
-                            <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies High Mileage Black and Brown Jacket/Ladies High Mileage Black and Brown Jacket1.jpg"
+                            <img class="main-img"
+                                src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies High Mileage Black and Brown Jacket/Ladies High Mileage Black and Brown Jacket1.jpg"
                                 alt="">
                         </div>
                     </a>
@@ -348,7 +229,8 @@
                 <div class="product-image">
                     <a href="../Product Details/product.html?id=16">
                         <div class="img-container">
-                            <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket1.png"
+                            <img class="main-img"
+                                src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket1.png"
                                 alt="">
                         </div>
                     </a>
@@ -356,7 +238,7 @@
                 <div class="product-info">
                     <div>
                         <h3 class="product-title">Distressed Gray Jacket</h3>
-                        <p class="product-price">Rs. 3999</p>
+                        <p class="product-price">Rs. 8999</p>
                     </div>
                     <div>
                         <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
@@ -371,7 +253,8 @@
                 <div class="product-image">
                     <a href="../Product Details/product.html?id=17">
                         <div class="img-container">
-                            <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket1.jpg"
+                            <img class="main-img"
+                                src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket/Ladies Premium Cowhide Braid and Stud Motorcycle Leather Jacket1.jpg"
                                 alt="">
                         </div>
                     </a>
@@ -393,7 +276,8 @@
                 <div class="product-image">
                     <a href="../Product Details/product.html?id=18">
                         <div class="img-container">
-                            <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Leather Jacket with Leather Scrunch Sides/Ladies Premium Leather Jacket with Leather Scrunch Sides1.jpg"
+                            <img class="main-img"
+                                src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Leather Jacket with Leather Scrunch Sides/Ladies Premium Leather Jacket with Leather Scrunch Sides1.jpg"
                                 alt="">
                         </div>
                     </a>
@@ -414,7 +298,8 @@
                 <div class="product-image">
                     <a href="../Product Details/product.html?id=19">
                         <div class="img-container">
-                            <img class="main-img" src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ1.jpg"
+                            <img class="main-img"
+                                src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ/Ladies Premium Lightweight Goatskin Classic Motorcycle Leather Jacket MCJ1.jpg"
                                 alt="">
                         </div>
                     </a>
@@ -422,7 +307,7 @@
                 <div class="product-info">
                     <div>
                         <h3 class="product-title">Classic Goatskin Biker</h3>
-                        <p class="product-price">Rs. 2555</p>
+                        <p class="product-price">Rs. 10000</p>
                     </div>
                     <div>
                         <button class="wishlist-btn" aria-label="Add to wishlist">♡</button>
@@ -431,6 +316,83 @@
             </div>
         </section>
     </section>
+
+    <!-- blurring background when filter opens -->
+    <div id="overlay"></div>
+
+    <!-- Filter bar hidden   -->
+    <aside id="filterPanel">
+        <!-- Close Button -->
+        <span id="closeFilter">&times;</span>
+
+        <!-- Filter Heading -->
+        <h2>Filters</h2>
+
+        <!-- Drolist -1 : Colors -->
+        <div class="filter-category">
+            <h3>Color</h3>
+            <select>
+                <option>Select</option>
+                <option>Black</option>
+                <option>Brown</option>
+                <option>Vintage</option>
+                <option>Gray</option>
+            </select>
+        </div>
+
+        <!-- Droplist- 2: category Type -->
+        <div class="filter-category">
+            <h3>Category</h3>
+            <select>
+                <option>Select</option>
+                <option>Jacket</option>
+                <option>Braided Studded Jacket</option>
+                <option>Scrunch-Side Jacket</option>
+                <option>Fringe Jacket</option>
+                <option> Lace Jacket</option>
+            </select>
+        </div>
+
+        <!-- Droplist-3: Sizes -->
+        <div class="filter-category">
+            <h3>Size</h3>
+            <select>
+                <option>Standard</option>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+        </div>
+        <!-- Price Range Filter -->
+        <div class="filter-category">
+            <h3>Price Range</h3>
+            <div class="price-range">
+                <input type="range" id="priceMin" min="0" max="12000" value="0" step="100">
+                <input type="range" id="priceMax" min="0" max="12000" value="12000" step="100">
+                <div class="price-values">
+                    <span>Rs<span id="minPriceValue">0</span></span>
+                    <span>Rs<span id="maxPriceValue">12000</span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sort Options -->
+        <div class="filter-category">
+            <h3>Sort By</h3>
+            <select id="sortOption">
+                <option value="default">Default</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="newest">Newest First</option>
+            </select>
+        </div>
+
+        <!-- Apply & Clear for filter Buttons -->
+        <div class="button-container">
+            <button class="apply">Apply Filter</button>
+            <button class="clear">Clear Filter</button>
+        </div>
+    </aside>
 
     <!-- Footer -->
     <footer>
@@ -533,10 +495,12 @@
         </div>
 
     </footer>
+    <script src="/Pages/Women Collection/women.js"></script>
 
 
 
-    <script src="script.js"></script>
+
+    <script src="../../script.js"></script>
 
 </body>
 

@@ -314,9 +314,11 @@
             <h3>Color</h3>
             <select>
                 <option>Select</option>
-                <option>blue Indigo</option>
+                <option>Green</option>
                 <option>Blue</option>
                 <option>Black</option>
+                <option>Beige</option>
+                <option>Brown</option>
             </select>
         </div>
 
@@ -325,27 +327,53 @@
             <h3>Category</h3>
             <select>
                 <option>Select</option>
-                <option>Sweatshirt</option>
-                <option>Shirt</option>
-                <option>Pants</option>
-                <option>Jacket</option>
+                <option>Tri Bag</option>
+                <option>Flex Bag</option>
             </select>
         </div>
 
         <!-- Droplist-3: Sizes -->
         <div class="filter-category">
-            <h3>Size</h3>
+            <h3>Accessories</h3>
             <select>
-                <option>Standard</option>
-                <option>Small</option>
-                <option>Medium</option>
-                <option>Large</option>
+                <option>Select</option>
+                <option>Keychain</option>
+                <option>Straps</option>
+                <option>Hand Gloves</option>
             </select>
         </div>
 
+        <!-- Price Range Filter -->
+<div class="filter-category">
+    <h3>Price Range</h3>
+    <div class="price-range">
+        <input type="range" id="priceMin" min="0" max="12000" value="0" step="100">
+        <input type="range" id="priceMax" min="0" max="12000" value="12000" step="100">
+        <div class="price-values">
+            <span>Rs<span id="minPriceValue">0</span></span>
+            <span>Rs<span id="maxPriceValue">12000</span></span>
+        </div>
+    </div>
+</div>
+
+<!-- Sort Options -->
+<div class="filter-category">
+    <h3>Sort By</h3>
+    <select id="sortOption">
+        <option value="default">Default</option>
+        <option value="price-low">Price: Low to High</option>
+        <option value="price-high">Price: High to Low</option>
+        <option value="newest">Newest First</option>
+    </select>
+</div>
+
         <!-- Apply & Clear for filter Buttons -->
-        <button class="apply">Apply Filter</button>
-        <button class="clear">Clear Filter</button>
+<div class="button-container">
+    <button class="apply">Apply Filter</button>
+    <button class="clear">Clear Filter</button>
+</div>
+
+       
     </aside>
     
 
