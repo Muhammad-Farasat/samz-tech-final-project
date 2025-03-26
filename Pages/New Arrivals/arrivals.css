@@ -1,0 +1,452 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+/* Breadcrumb navigation */
+.breadcrumb {
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.breadcrumb ul {
+    list-style: none;
+}
+
+.breadcrumb a {
+    color: #999;
+    text-decoration: none;
+}
+
+
+#sub-main {
+    margin-top: 14rem;
+    position: relative;
+    z-index: -1;
+}
+
+.women-main {
+    width: 100%;
+}
+
+/* Page title section */
+.page-title {
+    background-color: #e0e0e0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 18rem;
+    z-index: 10;
+}
+
+.texture-overlay {
+    background: url('/Assests/cardboard-texture.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+.texture-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+}
+
+.page-title h1 {
+    max-width: 1280px;
+    font-size: 36px;
+    position: absolute;
+    bottom: 18%;
+    left: 4%;
+}
+
+.filter-btn {
+    position: relative;
+    display: block;
+    margin: 20px 0 20px 20px;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+/* Product grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.product-card {
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    width: 100%;
+}
+
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.placeholder {
+    color: #333;
+    font-size: 18px;
+}
+
+.product-info {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #666;
+}
+
+.wishlist-btn {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #999;
+}
+
+/*body styling initial*/
+body {
+    background: #eaeaea;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    /*overplay for background*/
+}
+
+/*after opnening filter bar*/
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Assests/texture.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+.men-section {
+    margin-top: 20px;
+    /* beneath the header*/
+    text-align: left;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    background: none;
+    /* Remove background */
+}
+
+/*header section*/
+header {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Cards Container */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* Responsive grid */
+    gap: 20px;
+    /* Space between items */
+    padding: 40px;
+    background: url('texture-bg.jpg');
+    /* Background texture */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Single Card Design */
+#card {
+    background-color: #fff;
+    border-radius: 10px;
+    /* Rounded corners */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    /* Only box-shadow transition */
+}
+
+/* Image Container */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* Adjust height as needed */
+    overflow: hidden;
+}
+
+
+
+/* Default Image Visible */
+.main-img {
+    opacity: 1;
+}
+
+/* Hover Image Hidden by Default */
+.hover-img {
+    opacity: 0;
+}
+
+/* Show Hover Image on Hover */
+.image-container:hover .main-img {
+    opacity: 0;
+}
+
+.image-container:hover .hover-img {
+    opacity: 1;
+}
+
+/* Title and Price */
+#title-card {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#price {
+    font-size: 16px;
+    color: #1a1a1aa9;
+}
+
+
+/*filter button*/
+#filterBtn {
+    position: relative;
+    display: block;
+    margin: 20px 0 20px 20px;
+    /* Keeps spacing and aligns to left */
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+/* Filter left SidePanel */
+#filterPanel {
+    width: 280px;
+    height: 100vh;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    /* hidden at first */
+    transition: transform 0.3s ease-in-out;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+}
+
+/*  Close Button of the filter */
+#closeFilter {
+    font-size: 24px;
+    cursor: pointer;
+    float: right;
+}
+
+/*  Blurring the background */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1000;
+}
+
+/*  Dropdown list */
+.filter-category {
+    margin-bottom: 20px;
+}
+
+.filter-category h3 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+/*  Dropdown options box */
+.filter-category select {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+}
+
+/* filter Button-1 */
+.apply {
+    padding: 12px;
+    width: 100%;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/*filter button-2*/
+.clear {
+    padding: 12px;
+    width: 100%;
+    background: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* Responsive design */
+
+@media (max-width: 480px) {
+    
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 0;
+        justify-items: center;
+    }
+
+    
+    .product-card {
+        width: 160px;
+    }
+
+    
+    .img-container {
+        height: 200px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+    }
+}
+
+
+
+
+/* RESPONSIVE CARDS END */
+
+@media (min-width:481px) and (max-width:601px) {
+
+    .product-card {
+        width: 240px;
+    }
+    
+    .img-container {
+        height: 290px;
+    }
+
+}
+
+@media (min-width:601px) and (max-width:768px) {
+    
+    .product-card {
+        width: 280px;
+    }
+    
+    .img-container {
+        height: 320px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    
+    .product-card {
+        width: 340px;
+    }
+    
+    .img-container {
+        height: 400px;
+    }
+}
+
+/* RESPONSIVE CARDS END */
