@@ -285,10 +285,10 @@
         "price": 3999,
         "description": "A lightweight distressed gray goatskin jacket, perfect for an effortless and rugged look.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket2.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket3.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket4.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket1.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket2.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket3.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Women/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket/Ladies Lightweight Distressed Gray Goat Skin Leather Jacket4.png"
         ],
         "sizes": [
             "S",
@@ -584,8 +584,104 @@
         "price": 599,
         "description": "A striking red bag, perfect for making a fashion statement.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/White/Leather-Cap-Brown1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/White/Leather-Cap-Brown2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/White/Leather-Cap-White1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/White/Leather-Cap-White2.jpg"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Lining Puffer Jacket",
+        "price": 3995,
+        "description": "A striking red bag, perfect for making a fashion statement.",
+        "images": [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_One/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_One/2.jpg"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Printed Fur collar Jacket",
+        "price": 2745,
+        "description": "A striking red bag, perfect for making a fashion statement.",
+        "images": [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Two/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Two/2.jpg"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Vintage Denim Jacket ",
+        "price": 1690,
+        "description": "A striking red bag, perfect for making a fashion statement.",
+        "images": [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Three/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Three/2.jpg"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Leather Jacket KB-JKT",
+        "price": 1690,
+        "description": "A striking red bag, perfect for making a fashion statement.",
+        "images": [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Four/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Four/2.jpg"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Sports Jacket KB-KJT",
+        "price": 2995,
+        "description": "A striking red bag, perfect for making a fashion statement.",
+        "images": [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Five/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Five/2.jpg"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Hooded Lining Jacket",
+        "price": 2995,
+        "description": "A striking red bag, perfect for making a fashion statement.",
+        "images": [
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Six/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Six/2.jpg"
         ],
         "sizes": [
             "S",

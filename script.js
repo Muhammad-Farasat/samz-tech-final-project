@@ -132,7 +132,7 @@ if (checkOutBtn) {
 function accountCheck() {
 
     const checkUser = JSON.parse(localStorage.getItem('user'))
-console.log(checkUser);
+    console.log(checkUser);
 
     if (!checkUser) {
         return;
@@ -152,11 +152,11 @@ console.log(checkUser);
         </div>
         `
 
-        document.getElementById('logout-btn').addEventListener('click', ()=>{
-            localStorage.removeItem('user')
-            accountCheck()
-            window.location.reload()
-        })
+    document.getElementById('logout-btn').addEventListener('click', () => {
+        localStorage.removeItem('user')
+        accountCheck()
+        window.location.reload()
+    })
 
 }
 

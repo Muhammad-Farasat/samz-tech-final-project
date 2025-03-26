@@ -48,7 +48,7 @@ nav {
 
 #menu {
     display: none;
-    width: 30px;
+    width: 20px;
     flex-direction: column;
     row-gap: 4px;
     cursor: pointer;
@@ -58,8 +58,7 @@ nav {
 
 #menu span {
     width: 100%;
-    height: 2px;
-    border: 2px solid #111;
+    border: 1.5px solid #111;
     transition: all 0.3s ease;
     transform-origin: center;
 }
@@ -93,7 +92,12 @@ nav {
 }
 
 #logo {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#logo img{
+    width: 60%;
 }
 
 .bagBtn {
@@ -214,9 +218,6 @@ nav {
     display: block;
 }
 
-#accountBtn{
-    font-size: inherit;
-}
 
 /* MAIN SECTION STYLING (VIDEO) */
 
@@ -715,11 +716,11 @@ input::placeholder {
 
     #menu {
         display: flex;
-        width: 30px;
+        width: 20px;
     }
 
     #logo{
-        text-align: right;
+        justify-content: flex-end;
     }
 
     #other {
@@ -731,7 +732,7 @@ input::placeholder {
         display: none;
     }
 
-    #accountBtn {
+    #account {
         display: none;
     }
 
@@ -869,7 +870,6 @@ input::placeholder {
     }
 
     #menu {
-        width: 30px;
         display: flex;
     }
 
@@ -883,13 +883,13 @@ input::placeholder {
         display: none;
     }
 
-    #accountBtn {
+    #account {
         display: none;
     }
 
 
     #logo {
-        text-align: end;
+        justify-content: end;
     }
 
     #accessory {
@@ -1016,7 +1016,6 @@ input::placeholder {
     }
 
     #menu {
-        width: 30px;
         display: flex;
     }
     
@@ -1034,13 +1033,13 @@ input::placeholder {
         display: none;
     }
 
-    #accountBtn {
+    #account {
         display: none;
     }
 
 
     #logo{
-        text-align: right;
+        justify-content: end;
     }
     
     #NCContent{
@@ -1123,7 +1122,7 @@ input::placeholder {
     #bags{
         width: 100%;
         padding: 22px;
-        right: -100vw;
+        right: -200vw;
     }
 
     .bagTitle{

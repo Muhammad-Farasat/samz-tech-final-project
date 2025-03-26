@@ -1,6 +1,6 @@
 
 
-fetch('../product.json').then(response => response.json()).then(products => {
+fetch('../../product.json').then(response => response.json()).then(products => {
 
     const urlParams = new URLSearchParams(window.location.search)
     const productId = urlParams.get('id')
