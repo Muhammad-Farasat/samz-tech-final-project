@@ -41,15 +41,25 @@ ul li {
 
 /*caps heading*/
 .caps-section {
-    margin-top: 20px; 
-    
     text-align: left;
-    padding: 20px;
+    padding: 10px 0;
     font-size: 24px;
     font-weight: bold;
-    text-align: center;
-    background: none; 
+    background: #ccc;
+    height: 18rem;
+    position: relative;
 }
+
+
+.caps-section h1 {
+    max-width: 1280px;
+    font-size: 36px;
+    position: absolute;
+    bottom: 18%;
+    left: 4%;
+    z-index: 2;
+}
+
 /*header section*/
 header {
     background-color: white;
@@ -63,16 +73,15 @@ header {
 /* Cards Container */
 #caps-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 40px;
-    background: url('texture-bg.jpg'); 
+    background: url('texture-bg.jpg');
     background-size: cover;
-    background-position: center;
-   
-   
-   
+    background-position: center;   
 }
+
+
 #caps-cards {
     flex-grow: 1;
 }
@@ -93,7 +102,7 @@ header {
 .image-container {
     position: relative;
     width: 100%;
-    height: 350px; 
+    height: 450px; 
     overflow: hidden;
 }
 
