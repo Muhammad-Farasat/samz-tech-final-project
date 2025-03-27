@@ -316,6 +316,10 @@ nav {
     padding: 40px 0;
 }
 
+#accountBtn{
+    font-size: 14px;
+}
+
 #card {
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
