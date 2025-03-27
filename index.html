@@ -18,94 +18,104 @@
     <main id="home">
 
         <!-- NAVBAR -->
-        <nav>
+    <nav>
 
-            <!-- HAMBURGER ICON -->
-            <div id="menu">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+        <!-- HAMBURGER ICON -->
+        <div id="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- PAGE NAVIGATOR -->
+        <div id="pageDirector">
+
+            <a href="/Pages/Men Collection/men.html">MEN</a>
+            <a href="/Pages/Women Collection/women.html">WOMEN</a>
+            <a href="/Pages/Kids Collection/kids.html">KIDS</a>
+            <a href="/Pages/Bags Collection/bags.html">BAGS</a>
+            <a href="/Pages/Caps Collection/caps.html">CAPS</a>
             </div>
 
-            <!-- PAGE NAVIGATOR -->
-            <div id="pageDirector">
+        <!-- LOGO -->
+        <div id="logo">
 
-                <a href="/Pages/Men Collection/men.html">MEN</a>
-                <a href="/Pages/Women Collection/women.html">WOMEN</a>
-                <a href="/Pages/Kids Collection/kids.html">KIDS</a>
-                <a href="Pages\Bags Collection\bags.html">ACCESSORIES</a>
-                </div>
+            <a href="/">
+                <img src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/fe4c42420989d39afcbb43fb133861fefaf4624b/Assests/Products/logo.png"
+                    alt="">
+            </a>
 
-            <!-- LOGO -->
-            <div id="logo">
+        </div>
 
-                <a href="/">
-                    <img src="https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/fe4c42420989d39afcbb43fb133861fefaf4624b/Assests/Products/logo.png"
-                        alt="">
-                </a>
+        <!-- OTHERS -->
+        <div id="other">
 
-            </div>
-
-            <!-- OTHERS -->
-            <div id="other">
-
-                <button class="bagBtn" id="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-
-                <a href="Pages\About\about.html">ABOUT</a>
-                <a href="Pages\Contact\contact.html">CONTACT</a>
+            <button class="bagBtn" id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
             
-
-
-                <div id="account" class="account">
-                    <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
-                </div>
-
-                <button class="bagBtn" id="openBag">
-                    <span class="btnText">
-                        <i class="fa-solid fa-bag-shopping"></i>
-                        <span id="cartNumber">0</span> 
-                    </span> 
-                </button>
-
+            
+            <button class="bagBtn" id="openBag">
+                <span class="btnText">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="cartNumber">0</span> 
+                </span> 
+            </button>
+            
+            <div id="account" class="account">
+                <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
             </div>
 
-            <div id="smallScreenNav">
-                <a href="/Pages/Men Collection/men.html">MEN</a>
-                <div id="divider"></div>
-                <a href="/Pages/Women Collection/women.html">WOMEN</a>
-                <div id="divider"></div>
-                <a href="/Pages/Kids Collection/kids.html">KIDS</a>
-                <div id="divider"></div>
 
-                <div class="account">
-                    <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
-                </div>
+            <a class="hidden" href="Pages\About\about.html">ABOUT</a>
+            <a class="hidden" href="Pages\Contact\contact.html">CONTACT</a>
+        
+
+
+
+
+        </div>
+
+        <div id="smallScreenNav">
+            <a href="/Pages/Men Collection/men.html">MEN</a>
+            <div id="divider"></div>
+            <a href="/Pages/Women Collection/women.html">WOMEN</a>
+            <div id="divider"></div>
+            <a href="/Pages/Kids Collection/kids.html">KIDS</a>
+            <div id="divider"></div>
+            <a href="/Pages\About\about.html">ABOUT</a>
+            <div id="divider"></div>
+            <a href="/Pages\Contact\contact.html">CONTACT</a>
+            <div id="divider"></div>
+            <a href="/Pages/Bags Collection/bags.html">BAGS</a>
+            <div id="divider"></div>
+            <a href="/Pages/Caps Collection/caps.html">CAPS</a>
+
+            <div class="account">
+                <a class="bagBtn" id="accountBtn" href="/Pages/Authentication/login.html">ACCOUNT</a>
+            </div>
+        </div>
+
+        <div id="bags">
+
+            <div id="bagTopSection">
+                <h4>BAGS</h4>
+                <p class="cross" id="closeBtn">
+                    <i class="fa-solid fa-xmark"></i>
+                </p>
             </div>
 
-            <div id="bags">
+            <div id="bagCart"></div>
 
-                <div id="bagTopSection">
-                    <h4>BAGS</h4>
-                    <p class="cross" id="closeBtn">
-                        <i class="fa-solid fa-xmark"></i>
-                    </p>
-                </div>
-
-                <div id="bagCart"></div>
-
-                <div id="checkoutBtn">
-                    <a href="/Pages/CheckOut/checkout.html">
-                        <button id="checkoutButton">Proceed to Checkout</button>
-                    </a>
-                </div>
-
+            <div id="checkoutBtn">
+                <a href="/Pages/CheckOut/checkout.html">
+                    <button id="checkoutButton">Proceed to Checkout</button>
+                </a>
             </div>
 
-        </nav>
+        </div>
 
+    </nav>
         <!-- MAIN VIDEO -->
         <section id="video">
 
@@ -371,6 +381,11 @@
             <button id="closePopup">&times;</button>
             <h2>NEW ARRIVAL</h2>
             <p>Check out the latest trends in our store.</p>
+
+
+            <img src="Assests/young-handsome-man-walking-down-street_1303-24594.avif" style="width:100%; margin-top:20px; margin-bottom:20px;">
+
+
             <a href="/Pages/Men Collection/men.html" class="popupBtn">Explore Now</a>
         </div>
     </div>
