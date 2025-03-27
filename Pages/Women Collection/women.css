@@ -18,7 +18,7 @@
 
 /* Page title section */
 .page-title {
-    background-color: #e0e0e0;
+    background-color: #e6dede;
     position: relative;
     top: 0;
     left: 0;
@@ -134,6 +134,7 @@
 
 .product-price {
     color: #666;
+    font-size: 12px;
 }
 
 .wishlist-btn {
