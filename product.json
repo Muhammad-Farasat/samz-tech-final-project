@@ -553,7 +553,7 @@
         "description": "Trendy and comfortable caps for a cool and casual look.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/black/1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/black/2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/black/2.jpg"
         ],
         "sizes": [
             "S",
@@ -569,7 +569,7 @@
         "description": "Trendy and comfortable caps for a cool and casual look.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/brown/1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/brown/2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/brown/2.jpg"
         ],
         "sizes": [
             "S",
@@ -584,7 +584,7 @@
         "price": 599,
         "description": "Trendy and comfortable caps for a cool and casual look.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/white/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/white/1.webp",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/white/2.jpg"
         ],
         "sizes": [
@@ -600,8 +600,8 @@
         "price": 3995,
         "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_One/1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_One/2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_One/1.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_One/2.png"
         ],
         "sizes": [
             "S",
@@ -616,8 +616,8 @@
         "price": 2745,
         "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Two/1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Two/2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Two/1.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Two/2.png"
         ],
         "sizes": [
             "S",
@@ -632,8 +632,8 @@
         "price": 1690,
         "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Three/1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Three/2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Three/1.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Three/2.png"
         ],
         "sizes": [
             "S",
@@ -648,8 +648,8 @@
         "price": 1690,
         "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Four/1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Four/2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Four/1.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Four/2.png"
         ],
         "sizes": [
             "S",
@@ -664,7 +664,7 @@
         "price": 2995,
         "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Five/1.jpg",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Five/1.png",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Five/2.jpg"
         ],
         "sizes": [
@@ -680,8 +680,8 @@
         "price": 2995,
         "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Six/1.jpg",
-            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Six/2.jpg"
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Six/1.png",
+            "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Six/2.png"
         ],
         "sizes": [
             "S",
