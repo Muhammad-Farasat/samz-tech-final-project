@@ -348,11 +348,7 @@ header {
     z-index: 2;
 }
 @media (max-width: 768px) {
-    #filterPanel {
-        width: 80%;
-        left: -80%;
-        transition: left 0.3s ease-in-out;
-    }
+    
     
     #filterPanel.open {
         left: 0;
