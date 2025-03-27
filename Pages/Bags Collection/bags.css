@@ -34,16 +34,17 @@ ul li {
     list-style: none;
 }
 
-
 .men-section {
     text-align: left;
-    padding: 10px 0;
+    padding: 10 px;
     font-size: 24px;
     font-weight: bold;
     background: #ccc;
-    height: 18rem;
-    position: relative;
+    height:18rem;
+    position : relative;
+    
 }
+
 
 .men-section h1 {
     max-width: 1280px;
@@ -51,7 +52,8 @@ ul li {
     position: absolute;
     bottom: 18%;
     left: 4%;
-    z-index: 2;
+z-index: 2;
+
 }
 
 .texture-overlay {
