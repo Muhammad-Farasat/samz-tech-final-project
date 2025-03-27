@@ -76,21 +76,28 @@ ul li {
 .caps-section {
     text-align: left;
     padding: 10px 0;
-    font-size: 24px;
-    font-weight: bold;
     background: #ccc;
     height: 18rem;
     position: relative;
 }
 
 
-.caps-section h1 {
+.headingTextCaps {
     max-width: 1280px;
-    font-size: 36px;
     position: absolute;
     bottom: 18%;
     left: 4%;
     z-index: 2;
+}
+
+.headingTextCaps h1{
+    font-size: 36px;
+}
+
+
+.headingTextCaps p{
+    font-style: italic;
+    font-size: 16px;
 }
 
 /*header section*/

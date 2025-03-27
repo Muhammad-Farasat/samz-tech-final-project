@@ -373,7 +373,7 @@
         "id": 21,
         "name": "Tri Bag - beige",
         "price": 9999,
-        "description": "This premium leather jacket is designed for comfort and style. It features vented panels for breathability and a sleek, modern design.",
+        "description": "Stylish and spacious bags perfect for daily use and travel.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/beige/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/beige/2.jpg",
@@ -391,7 +391,7 @@
         "id": 22,
         "name": "Tri Bag - blue",
         "price": 2999,
-        "description": "A stylish beige bag with a spacious interior, perfect for everyday use.",
+        "description": "Stylish and spacious bags perfect for daily use and travel.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/blue/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/blue/2.jpg",
@@ -409,7 +409,7 @@
         "id": 23,
         "name": "Tri Bag - brown",
         "price": 2555,
-        "description": "A trendy blue bag designed for both fashion and functionality.",
+        "description": "Stylish and spacious bags perfect for daily use and travel.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/brown/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/brown/2.jpg"
@@ -425,7 +425,7 @@
         "id": 24,
         "name": "Flex Bag - black",
         "price": 2555,
-        "description": "A classic brown bag with a vintage finish for a timeless look.",
+        "description": "Stylish and spacious bags perfect for daily use and travel.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex black/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex black/2.jpg",
@@ -443,7 +443,7 @@
         "id": 25,
         "name": "Flex Bag - green",
         "price": 2555,
-        "description": "A sleek black flex bag, offering a modern touch to your accessories.",
+        "description": "Stylish and spacious bags perfect for daily use and travel.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex green/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex green/2.jpg",
@@ -461,7 +461,7 @@
         "id": 26,
         "name": "Flex Bag - grey",
         "price": 2555,
-        "description": "A vibrant green flex bag with a durable build and stylish design.",
+        "description": "Stylish and spacious bags perfect for daily use and travel.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex grey/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex grey/2.jpg",
@@ -479,7 +479,7 @@
         "id": 27,
         "name": "Flex Bag - pink",
         "price": 2555,
-        "description": "A neutral gray flex bag that complements any outfit effortlessly.",
+        "description": "Stylish and spacious bags perfect for daily use and travel.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex pink/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/flex pink/2.jpg",
@@ -497,7 +497,7 @@
         "id": 28,
         "name": "Tri Bag - mehroon",
         "price": 4555,
-        "description": "A bold pink flex bag that adds a pop of color to your daily essentials.",
+        "description": "Stylish and spacious bags perfect for daily use and travel.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/mehroon/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/mehroon/2.jpg",
@@ -515,7 +515,7 @@
         "id": 29,
         "name": "Tri Bag - red",
         "price": 3559,
-        "description": "A deep mehroon bag, blending elegance with practicality.",
+        "description": "Stylish and spacious bags perfect for daily use and travel.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/red/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/red/2.jpg",
@@ -533,7 +533,7 @@
         "id": 30,
         "name": "Tri Bag - White",
         "price": 999,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Stylish and spacious bags perfect for daily use and travel.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/white/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/white/2.jpg",
@@ -550,7 +550,7 @@
         "id": 31,
         "name": "Cap - Black",
         "price": 999,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Trendy and comfortable caps for a cool and casual look.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/black/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/black/2.jpg"
@@ -566,7 +566,7 @@
         "id": 32,
         "name": "Cap - Brown",
         "price": 599,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Trendy and comfortable caps for a cool and casual look.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/brown/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Bags/brown/2.jpg"
@@ -582,7 +582,7 @@
         "id": 33,
         "name": "Cap - White",
         "price": 599,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Trendy and comfortable caps for a cool and casual look.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/white/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/white/2.jpg"
@@ -598,7 +598,7 @@
         "id": 34,
         "name": "Lining Puffer Jacket",
         "price": 3995,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_One/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_One/2.jpg"
@@ -614,7 +614,7 @@
         "id": 35,
         "name": "Printed Fur collar Jacket",
         "price": 2745,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Two/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Two/2.jpg"
@@ -630,7 +630,7 @@
         "id": 36,
         "name": "Vintage Denim Jacket ",
         "price": 1690,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Three/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Three/2.jpg"
@@ -646,7 +646,7 @@
         "id": 37,
         "name": "Leather Jacket KB-JKT",
         "price": 1690,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Four/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Four/2.jpg"
@@ -662,7 +662,7 @@
         "id": 38,
         "name": "Sports Jacket KB-KJT",
         "price": 2995,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Five/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Five/2.jpg"
@@ -678,7 +678,7 @@
         "id": 39,
         "name": "Hooded Lining Jacket",
         "price": 2995,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Warm and cozy jackets designed to keep kids comfortable in winter.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Six/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Kids/Jacket_Six/2.jpg"
@@ -694,7 +694,7 @@
         "id": 40,
         "name": "Cap - Pink",
         "price": 599,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Trendy and comfortable caps for a cool and casual look.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/pink/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/pink/2.jpg",
@@ -711,7 +711,7 @@
         "id": 41,
         "name": "Cap - Light Brown",
         "price": 599,
-        "description": "A striking red bag, perfect for making a fashion statement.",
+        "description": "Trendy and comfortable caps for a cool and casual look.",
         "images": [
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/light brown/1.jpg",
             "https://raw.githubusercontent.com/Muhammad-Farasat/samz-tech-final-project/main/Assests/Products/Caps/light brown/2.jpg",

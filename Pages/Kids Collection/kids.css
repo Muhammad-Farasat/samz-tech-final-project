@@ -62,12 +62,24 @@ ul li {
     z-index: 10;
 }
 
-.kids-section h1 {
+.headingKids {
     max-width: 1280px;
-    font-size: 36px;
+    /* font-size: 36px; */
     position: absolute;
     bottom: 18%;
     left: 4%;
+    z-index: 3;
+}
+
+
+.headingKids h1{
+    font-size: 36px;
+}
+
+
+.headingKids p{
+    font-size: 16px;
+    font-style: italic;
 }
 
 .texture-overlay {

@@ -5,25 +5,6 @@
     font-family: Arial, sans-serif;
 }
 
-body {
-    background-color: #f9f9f9;
-}
-
-/* Breadcrumb navigation */
-.breadcrumb {
-    padding: 10px 20px;
-    background-color: white;
-}
-
-.breadcrumb ul {
-    list-style: none;
-}
-
-.breadcrumb a {
-    color: #999;
-    text-decoration: none;
-}
-
 
 #sub-main {
     margin-top: 14rem;
@@ -46,6 +27,25 @@ body {
     z-index: 10;
 }
 
+.headingTextWomen{
+    max-width: 1280px;
+    position: absolute;
+    bottom: 18%;
+    left: 4%;
+}
+
+.headingTextWomen h1{
+    font-size: 36px;
+}
+
+.headingTextWomen p{
+    margin-top: 0.5rem;
+    font-size: 16px;
+    font-style: italic;
+
+}
+
+
 .texture-overlay {
     background: url('/Assests/cardboard-texture.jpg');
     background-repeat: no-repeat;
@@ -66,14 +66,6 @@ body {
     opacity: 0.2;
     width: 100%;
     height: 100%;
-}
-
-.page-title h1 {
-    max-width: 1280px;
-    font-size: 36px;
-    position: absolute;
-    bottom: 18%;
-    left: 4%;
 }
 
 .filter-btn {

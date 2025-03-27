@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         : 'none';
                 } catch (error) {
                     console.error('Error filtering product:', error);
-                    product.style.display = 'block'; // Show by default if error
+                    product.style.display = 'block'; 
                 }
             });
             
