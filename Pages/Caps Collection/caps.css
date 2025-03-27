@@ -443,3 +443,38 @@ input::placeholder {
         width: 30%;
     }
 }
+@media (max-width: 1024px) {
+    #caps-cards {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #caps-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .headingTextCaps {
+        bottom: 10%;
+        left: 2%;
+    }
+
+    .headingTextCaps h1 {
+        font-size: 28px;
+    }
+
+    .headingTextCaps p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+
+
+}
