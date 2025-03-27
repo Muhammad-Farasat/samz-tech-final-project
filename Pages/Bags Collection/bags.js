@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function updatePriceValues() {
         if (elements.minPriceValue && elements.maxPriceValue) {
             elements.minPriceValue.textContent = elements.priceMin?.value || 0;
-            elements.maxPriceValue.textContent = elements.priceMax?.value || 12000;
+            elements.maxPriceValue.textContent = elements.priceMax?.value || 5000;
         }
     }
 
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!elements.priceMin || !elements.priceMax) return;
             
             const minPrice = parseInt(elements.priceMin.value) || 0;
-            const maxPrice = parseInt(elements.priceMax.value) || 12000;
+            const maxPrice = parseInt(elements.priceMax.value) || 5000;
             
             const products = document.querySelectorAll('#men-card');
             
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
         try {
             if (elements.priceMin && elements.priceMax) {
                 elements.priceMin.value = 0;
-                elements.priceMax.value = 12000;
+                elements.priceMax.value = 5000;
                 updatePriceValues();
             }
             
