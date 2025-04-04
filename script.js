@@ -4,6 +4,14 @@ const smallScreenNav = document.getElementById('smallScreenNav')
 menu.addEventListener('click', () => {
     menu.classList.toggle('active')
     smallScreenNav.classList.toggle('active')
+
+    if (smallScreenNav.classList.contains = 'active') {
+        const check = smallScreenNav.classList.contains = 'active'
+        console.log(check);
+        
+        disableScrol()
+    }
+
 })
 
 const headings = document.querySelectorAll(' #support p, #services p, #about p, #parthner p ')

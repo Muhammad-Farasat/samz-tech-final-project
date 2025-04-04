@@ -67,7 +67,7 @@ input:focus {
     flex: 1;
 }
 
-button[type="submit"] {
+button {
     background: #007bff;
     color: white;
     border: none;

@@ -13,18 +13,18 @@
     <div class="checkout-container">
         <div class="form-section">
             <h2>WHERE TO DELIVER YOUR ORDER?</h2>
-            <form id="checkout-form">
-                <input type="email" placeholder="Email Address *" required>
-                <input type="text" placeholder="Full Name *" required>
-                <input type="text" placeholder="Address Line *" required>
-                <input type="text" placeholder="Country *" required>
+            <div id="checkout-form" onsubmit="return false" >
+                <input type="email" name="email" id="email" placeholder="Email Address *" required>
+                <input type="text" name="name" id="name" placeholder="Full Name *" required>
+                <input type="text" name="address" id="address" placeholder="Address Line *" required>
+                <input type="text" name="country" placeholder="Country *" required>
                 <div class="row">
-                    <input type="text" placeholder="City *" required>
-                    <input type="text" placeholder="Postal Code *" required>
+                    <input type="text" name="city" placeholder="City *" required>
+                    <input type="text" name="postalCode" placeholder="Postal Code *" required>
                 </div>
-                <input type="text" placeholder="Phone Number *" required>
-                <button type="submit">Place Order</button>
-            </form>
+                <input type="text" name="phone" id="phone" placeholder="Phone Number *" required>
+                <button id="order-btn" >Place Order</button>
+            </div>
         </div>
         
         <div class="summary-section">
