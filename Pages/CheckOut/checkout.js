@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         localStorage.removeItem('cart')
 
-        window.location.href('/')
+        window.location.href = '/'
 
     });
 
